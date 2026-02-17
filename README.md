@@ -9,6 +9,7 @@ A simple PHP website with Bootstrap 5 for Professor Pritam Singh, featuring book
 - **JSON Storage** - File-based data storage (no database needed)
 - **Admin Panel** - Complete CRUD operations for managing content
 - **Security** - CSRF protection, XSS prevention, session management
+- **Static Site Generation** - Automated GitHub Action generates static HTML from PHP pages
 
 ## Requirements
 
@@ -59,16 +60,24 @@ Then visit: http://127.0.0.1:8080/index.php
 ├── header.php             # Header component
 ├── footer.php             # Footer component
 ├── functions.php          # Helper functions
+├── generate-static.php    # Static site generator script
+├── /.github/
+│   └── /workflows/
+│       └── static-site.yml # GitHub Action for static site generation
 ├── /data/                 # JSON data files
 │   ├── books.json
 │   ├── articles.json
 │   ├── videos.json
 │   ├── bio.json
 │   └── .htaccess         # Deny direct access
-└── /assets/
-    ├── /css/
-    │   └── site.css      # Custom styles
-    └── /img/             # Images directory
+├── /assets/
+│   ├── /css/
+│   │   └── site.css      # Custom styles
+│   └── /img/             # Images directory
+└── /static-website/       # Auto-generated static HTML (by GitHub Action)
+    ├── *.html            # Static HTML pages
+    ├── /assets/          # Copied assets
+    └── /data/            # Copied JSON data
 ```
 
 ## Security Features
@@ -156,6 +165,51 @@ Edit `/data/bio.json` with your information.
 ### Modifying Pages
 
 All page content is in the respective PHP files. Edit them directly to update content.
+
+## Static Website Generation
+
+The repository includes an automated GitHub Action that generates a static HTML version of the website. This feature is useful for deploying to static hosting services like GitHub Pages, Netlify, or Vercel.
+
+### How It Works
+
+1. **Automatic Generation**: The workflow runs automatically on every push and pull request
+2. **PHP to HTML**: Converts PHP pages to static HTML files
+3. **Link Conversion**: All `.php` links are automatically converted to `.html`
+4. **Asset Copying**: Copies all assets (CSS, images) and data files
+5. **Output Location**: Generated files are saved to `/static-website/` directory
+
+### Manual Generation
+
+To generate the static website manually:
+
+```bash
+php generate-static.php
+```
+
+This will:
+- Start a temporary PHP server
+- Fetch each public page
+- Convert all links from `.php` to `.html`
+- Copy assets and data directories
+- Save everything to `/static-website/`
+
+### Deployment Options
+
+The generated static website in `/static-website/` can be deployed to:
+
+- **GitHub Pages**: Enable GitHub Pages from the `/static-website` folder
+- **Netlify**: Point to the `/static-website` directory
+- **Vercel**: Deploy the `/static-website` folder
+- **Any static host**: Upload the contents of `/static-website/`
+
+### What Gets Generated
+
+- All public pages (index, about, books, articles, videos, contact)
+- All assets (CSS, images)
+- JSON data files
+- `.nojekyll` file (for GitHub Pages)
+
+**Note**: Admin pages (login, admin panels) are not included in the static generation as they require PHP functionality.
 
 ## Troubleshooting
 
