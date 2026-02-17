@@ -1,0 +1,38 @@
+{
+  "items": [
+    {
+      "id": "b_001",
+      "title": "International Law and Human Rights",
+      "authors": "Pritam Singh",
+      "year": 2018,
+      "publisher": "Oxford University Press",
+      "isbn": "978-0198765431",
+      "links": [
+        {
+          "label": "Amazon",
+          "url": "https://www.amazon.com/example"
+        },
+        {
+          "label": "Publisher",
+          "url": "https://global.oup.com/example"
+        }
+      ],
+      "notes": "A comprehensive analysis of international law frameworks"
+    },
+    {
+      "id": "b_002",
+      "title": "Global Justice and Sovereignty",
+      "authors": "Pritam Singh",
+      "year": 2020,
+      "publisher": "Cambridge University Press",
+      "isbn": "978-1108471237",
+      "links": [
+        {
+          "label": "Amazon",
+          "url": "https://www.amazon.com/example2"
+        }
+      ],
+      "notes": "Explores the tension between national sovereignty and global justice"
+    }
+  ]
+}
