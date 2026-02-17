@@ -63,7 +63,8 @@ Then visit: http://127.0.0.1:8080/index.php
 ├── generate-static.php    # Static site generator script
 ├── /.github/
 │   └── /workflows/
-│       └── static-site.yml # GitHub Action for static site generation
+│       ├── static-site.yml # GitHub Action for static site generation
+│       └── deploy-pages.yml # GitHub Action for GitHub Pages deployment
 ├── /data/                 # JSON data files
 │   ├── books.json
 │   ├── articles.json
@@ -197,10 +198,26 @@ This will:
 
 The generated static website in `/static-website/` can be deployed to:
 
-- **GitHub Pages**: Enable GitHub Pages from the `/static-website` folder
+- **GitHub Pages**: Automatically deployed via GitHub Action (see below)
 - **Netlify**: Point to the `/static-website` directory
 - **Vercel**: Deploy the `/static-website` folder
 - **Any static host**: Upload the contents of `/static-website/`
+
+### GitHub Pages Deployment
+
+This repository is configured to automatically deploy the `/static-website/` directory to GitHub Pages:
+
+1. **Automatic Deployment**: When changes are pushed to `/static-website/`, the GitHub Action automatically deploys to GitHub Pages
+2. **Manual Trigger**: You can manually trigger the deployment from the Actions tab
+3. **Enable GitHub Pages**:
+   - Go to your repository Settings > Pages
+   - Under "Build and deployment", select "GitHub Actions" as the source
+   - The site will be available at `https://<username>.github.io/<repository-name>/`
+
+The deployment workflow (`.github/workflows/deploy-pages.yml`) will:
+- Trigger automatically when `/static-website/**` files change
+- Deploy only the contents of the `/static-website/` directory
+- Use GitHub's official Pages deployment actions for reliability
 
 ### What Gets Generated
 
