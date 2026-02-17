@@ -2,27 +2,51 @@
   "items": [
     {
       "id": "a_001",
-      "title": "The Future of International Human Rights Law",
-      "source": "Oxford Journal of Legal Studies",
-      "date": "2023-06-15",
-      "url": "https://academic.oup.com/example",
-      "summary": "An examination of emerging challenges and opportunities in international human rights law"
+      "title": "Hindu bias in India's 'secular' constitution: Probing flaws in the instruments of governance",
+      "source": "Third World Quarterly",
+      "date": "2005-04-01",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/01436590500033677",
+      "summary": "Examines the constitutional framework of India and analyzes biases in governance structures despite secular principles"
     },
     {
       "id": "a_002",
-      "title": "Sovereignty in the Age of Globalization",
-      "source": "International Affairs Review",
-      "date": "2022-11-20",
-      "url": "https://www.cambridge.org/example",
-      "summary": "Discusses how globalization impacts traditional notions of state sovereignty"
+      "title": "The Political Economy of the Cycles of Violence and Non-violence in the Sikh Struggle for Identity and Political Power: implications for Indian federalism",
+      "source": "Third World Quarterly",
+      "date": "2007-08-01",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/01436590701464723",
+      "summary": "Analyzes the Sikh political movement and its implications for federal structures and minority rights in India"
     },
     {
       "id": "a_003",
-      "title": "Climate Change and International Law",
-      "source": "Environmental Law Quarterly",
-      "date": "2024-01-10",
-      "url": "https://www.environmentallawreview.com/example",
-      "summary": "Analyzes the legal frameworks for addressing climate change at the international level"
+      "title": "The resurgence of Bhindranwale's image in contemporary Punjab",
+      "source": "Contemporary South Asia",
+      "date": "2013-06-01",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/09584935.2013.788140",
+      "summary": "Discusses the political and cultural significance of religious leadership in Punjab's contemporary context"
+    },
+    {
+      "id": "a_004",
+      "title": "Austerity, welfare state and eco-socialism: With special reference to the United Kingdom",
+      "source": "Economic and Political Weekly",
+      "date": "2014-11-15",
+      "url": "https://www.epw.in",
+      "summary": "Analyzes the impact of austerity policies on welfare systems and explores eco-socialist alternatives"
+    },
+    {
+      "id": "a_005",
+      "title": "Federalism and the Accommodation of Distinct Groups: A Comparative Study of the Indian and Pakistani Experiences",
+      "source": "Publius: The Journal of Federalism",
+      "date": "2011-01-01",
+      "url": "https://academic.oup.com/publius",
+      "summary": "Comparative analysis of federal systems and minority accommodation in South Asian contexts"
+    },
+    {
+      "id": "a_006",
+      "title": "Culture and the Economy: Understanding the Dynamics of Globalization",
+      "source": "Journal of International Development",
+      "date": "2008-05-01",
+      "url": "https://onlinelibrary.wiley.com/journal/10991328",
+      "summary": "Explores the relationship between cultural factors and economic development in the context of globalization"
     }
   ]
 }

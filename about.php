@@ -1,9 +1,6 @@
 <?php
 require_once 'functions.php';
 
-// Load bio data
-$bio_data = read_json('data/bio.json');
-
 include 'header.php';
 ?>
 
@@ -12,38 +9,61 @@ include 'header.php';
 
     <div class="row">
         <div class="col-lg-8">
-            <h2><?= h($bio_data['name']) ?></h2>
-            <h4 class="text-muted"><?= h($bio_data['title']) ?></h4>
-            <h5 class="text-muted mb-4"><?= h($bio_data['institution']) ?></h5>
+            <h2>Professor Pritam Singh</h2>
+            <h4 class="text-muted">Emeritus Professor of Economics</h4>
+            <h5 class="text-muted mb-4">Oxford Brookes University</h5>
 
             <div class="bio-section mb-4">
                 <h3>Biography</h3>
-                <p><?= h($bio_data['bio']) ?></p>
+                <p>Professor Pritam Singh is a distinguished scholar in economics and development studies with a focus on federalism, nationalism, human rights, and governance. He earned his doctorate at the University of Oxford and has held affiliations including Visiting Scholar at Wolfson College, Oxford, and Research Associate at the Department of International Development, Oxford.</p>
+                <p>His research examines the intersection of economics, political structures, minority rights, and governance, particularly in India and Punjab, with implications for international human rights debates. Professor Singh's work is characterized by its interdisciplinary approach, bridging economics, political science, and legal studies.</p>
+                <p>Throughout his career, Professor Singh has contributed significantly to our understanding of federal systems, communalism, and the political economy of South Asia. He serves on the editorial boards of several prestigious journals including Capitalism Nature Socialism, International Journal of Pluralism and Economics Education, and Brookes eJournal of Teaching and Learning.</p>
             </div>
 
-            <?php if (!empty($bio_data['education'])): ?>
             <div class="education-section mb-4">
                 <h3>Education</h3>
                 <ul class="list-unstyled">
-                    <?php foreach ($bio_data['education'] as $edu): ?>
                     <li class="mb-2">
-                        <i class="text-primary">🎓</i> <?= h($edu) ?>
+                        <i class="text-primary">🎓</i> DPhil, University of Oxford
                     </li>
-                    <?php endforeach; ?>
+                    <li class="mb-2">
+                        <i class="text-primary">🎓</i> MA in Economics
+                    </li>
                 </ul>
             </div>
-            <?php endif; ?>
 
-            <?php if (!empty($bio_data['research_interests'])): ?>
             <div class="research-section mb-4">
                 <h3>Research Interests</h3>
                 <div class="d-flex flex-wrap gap-2">
-                    <?php foreach ($bio_data['research_interests'] as $interest): ?>
-                    <span class="badge bg-primary fs-6"><?= h($interest) ?></span>
-                    <?php endforeach; ?>
+                    <span class="badge bg-primary fs-6">Economics and Development Studies</span>
+                    <span class="badge bg-primary fs-6">Federalism and Nationalism</span>
+                    <span class="badge bg-primary fs-6">Human Rights</span>
+                    <span class="badge bg-primary fs-6">Governance and Political Economy</span>
+                    <span class="badge bg-primary fs-6">Minority Rights and Communalism</span>
+                    <span class="badge bg-primary fs-6">Punjabi Identity and Diaspora Studies</span>
                 </div>
             </div>
-            <?php endif; ?>
+
+            <div class="affiliations-section mb-4">
+                <h3>Professional Affiliations</h3>
+                <ul class="list-unstyled">
+                    <li class="mb-2">
+                        <i class="text-primary">▪</i> Visiting Scholar, Wolfson College, Oxford
+                    </li>
+                    <li class="mb-2">
+                        <i class="text-primary">▪</i> Research Associate, Department of International Development, University of Oxford
+                    </li>
+                    <li class="mb-2">
+                        <i class="text-primary">▪</i> Editorial Board Member, Capitalism Nature Socialism
+                    </li>
+                    <li class="mb-2">
+                        <i class="text-primary">▪</i> Editorial Board Member, International Journal of Pluralism and Economics Education
+                    </li>
+                    <li class="mb-2">
+                        <i class="text-primary">▪</i> Editorial Board Member, Brookes eJournal of Teaching and Learning
+                    </li>
+                </ul>
+            </div>
         </div>
 
         <div class="col-lg-4">

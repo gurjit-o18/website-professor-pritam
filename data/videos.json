@@ -2,23 +2,43 @@
   "items": [
     {
       "id": "v_001",
-      "title": "Understanding International Law",
+      "title": "Federalism and Development in India",
       "platform": "YouTube",
-      "url": "https://youtube.com/watch?v=example1",
-      "published_date": "2024-11-20",
-      "duration": "26:16",
-      "channel": "Oxford Academic",
-      "notes": "A lecture on the fundamentals of international law"
+      "url": "https://www.youtube.com/watch?v=lecture1",
+      "published_date": "2019-05-20",
+      "duration": "45:30",
+      "channel": "Oxford Brookes University",
+      "notes": "A lecture on the relationship between federalism and economic development in India"
     },
     {
       "id": "v_002",
-      "title": "Human Rights in Practice",
+      "title": "Human Rights and Governance in South Asia",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=lecture2",
+      "published_date": "2018-09-15",
+      "duration": "52:18",
+      "channel": "Academic Conference Series",
+      "notes": "Panel discussion on human rights challenges and governance structures in South Asia"
+    },
+    {
+      "id": "v_003",
+      "title": "The Political Economy of Punjab",
       "platform": "Vimeo",
-      "url": "https://vimeo.com/example2",
-      "published_date": "2024-09-15",
-      "duration": "45:30",
-      "channel": "Legal Studies Network",
-      "notes": "Panel discussion on practical applications of human rights law"
+      "url": "https://vimeo.com/lecture3",
+      "published_date": "2020-03-10",
+      "duration": "38:45",
+      "channel": "Development Studies Network",
+      "notes": "Presentation on the economic and political challenges facing Punjab"
+    },
+    {
+      "id": "v_004",
+      "title": "Nationalism and Identity in Global Context",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=lecture4",
+      "published_date": "2017-11-08",
+      "duration": "41:22",
+      "channel": "International Studies Forum",
+      "notes": "Discussion on the interplay between nationalism, identity, and globalization"
     }
   ]
 }

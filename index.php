@@ -20,8 +20,8 @@ include 'header.php';
         <div class="row">
             <div class="col-lg-8 mx-auto text-center">
                 <h1>Professor Pritam Singh</h1>
-                <p class="lead">Professor of International Law at the University of Oxford</p>
-                <p class="lead">Specializing in Human Rights, Global Justice, and International Legal Frameworks</p>
+                <p class="lead">Emeritus Professor of Economics at Oxford Brookes University</p>
+                <p class="lead">Specializing in Federalism, Development Studies, Human Rights, and Governance</p>
                 <a href="about.php" class="btn btn-light btn-lg mt-3">Learn More</a>
             </div>
         </div>
@@ -35,7 +35,7 @@ include 'header.php';
             <div class="card">
                 <div class="card-body text-center">
                     <h3 class="card-title">📚 Books</h3>
-                    <p class="card-text">Explore published books and academic contributions to international law and human rights.</p>
+                    <p class="card-text">Explore published books on federalism, nationalism, governance, and human rights in South Asian contexts.</p>
                     <a href="books.php" class="btn btn-primary">View Books</a>
                 </div>
             </div>
@@ -44,7 +44,7 @@ include 'header.php';
             <div class="card">
                 <div class="card-body text-center">
                     <h3 class="card-title">📄 Articles</h3>
-                    <p class="card-text">Read scholarly articles published in leading academic journals and publications.</p>
+                    <p class="card-text">Read scholarly articles on economics, development, political economy, and governance issues.</p>
                     <a href="articles.php" class="btn btn-primary">View Articles</a>
                 </div>
             </div>
@@ -53,7 +53,7 @@ include 'header.php';
             <div class="card">
                 <div class="card-body text-center">
                     <h3 class="card-title">🎥 Videos</h3>
-                    <p class="card-text">Watch lectures, interviews, and presentations on international law topics.</p>
+                    <p class="card-text">Watch lectures and presentations on federalism, development studies, and human rights.</p>
                     <a href="videos.php" class="btn btn-primary">View Videos</a>
                 </div>
             </div>

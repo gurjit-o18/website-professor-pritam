@@ -1,18 +1,18 @@
 {
   "name": "Professor Pritam Singh",
-  "title": "Professor of International Law",
-  "institution": "University of Oxford",
-  "bio": "Professor Pritam Singh is a leading scholar in international law and human rights. He has published extensively on topics including sovereignty, global justice, and international legal frameworks. His work has influenced both academic discourse and policy development in the field of international law.",
+  "title": "Emeritus Professor of Economics",
+  "institution": "Oxford Brookes University",
+  "bio": "Professor Pritam Singh is a distinguished scholar in economics and development studies with a focus on federalism, nationalism, human rights, and governance. He earned his doctorate at the University of Oxford and has held affiliations including Visiting Scholar at Wolfson College, Oxford, and Research Associate at the Department of International Development, Oxford. His research examines the intersection of economics, political structures, minority rights, and governance, particularly in India and Punjab, with implications for international human rights debates.",
   "education": [
-    "DPhil in Law, University of Oxford",
-    "LLM, Harvard Law School",
-    "BA in Law, Delhi University"
+    "DPhil, University of Oxford",
+    "MA in Economics"
   ],
   "research_interests": [
-    "International Law",
+    "Economics and Development Studies",
+    "Federalism and Nationalism",
     "Human Rights",
-    "Global Justice",
-    "Sovereignty",
-    "Climate Law"
+    "Governance and Political Economy",
+    "Minority Rights and Communalism",
+    "Punjabi Identity and Diaspora Studies"
   ]
 }

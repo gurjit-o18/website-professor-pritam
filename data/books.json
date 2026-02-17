@@ -2,37 +2,82 @@
   "items": [
     {
       "id": "b_001",
-      "title": "International Law and Human Rights",
+      "title": "Federalism, Nationalism and Development: India and the Punjab Economy",
       "authors": "Pritam Singh",
-      "year": 2018,
-      "publisher": "Oxford University Press",
-      "isbn": "978-0198765431",
+      "year": 2019,
+      "publisher": "Routledge",
+      "isbn": "978-1138360952",
       "links": [
         {
-          "label": "Amazon",
-          "url": "https://www.amazon.com/example"
+          "label": "Routledge",
+          "url": "https://www.routledge.com/Federalism-Nationalism-and-Development-India-and-the-Punjab-Economy/Singh/p/book/9781138360952"
         },
         {
-          "label": "Publisher",
-          "url": "https://global.oup.com/example"
+          "label": "Amazon",
+          "url": "https://www.amazon.com/Federalism-Nationalism-Development-Punjab-Economy/dp/1138360953"
         }
       ],
-      "notes": "A comprehensive analysis of international law frameworks"
+      "notes": "Second edition - Examines the interplay of federalism and nationalism in India, focusing on Punjab's economic development"
     },
     {
       "id": "b_002",
-      "title": "Global Justice and Sovereignty",
+      "title": "Institutional Communalism in India",
       "authors": "Pritam Singh",
-      "year": 2020,
-      "publisher": "Cambridge University Press",
-      "isbn": "978-1108471237",
+      "year": 2019,
+      "publisher": "Critical Quest",
+      "isbn": "978-8189988531",
       "links": [
         {
-          "label": "Amazon",
-          "url": "https://www.amazon.com/example2"
+          "label": "Publisher",
+          "url": "https://www.criticalquest.org"
         }
       ],
-      "notes": "Explores the tension between national sovereignty and global justice"
+      "notes": "Discusses the role of communalism in Indian institutions and governance structures"
+    },
+    {
+      "id": "b_003",
+      "title": "Hindu Bias in India's 'Secular' Constitution: Probing Flaws in the Instruments of Governance",
+      "authors": "Pritam Singh",
+      "year": 2017,
+      "publisher": "Critical Quest",
+      "isbn": "978-8189988326",
+      "links": [
+        {
+          "label": "Publisher",
+          "url": "https://www.criticalquest.org"
+        }
+      ],
+      "notes": "Analyzes constitutional law and governance in India, examining secular principles in practice"
+    },
+    {
+      "id": "b_004",
+      "title": "Economy, Culture and Human Rights: Turbulence in Punjab, India and Beyond",
+      "authors": "Pritam Singh",
+      "year": 2010,
+      "publisher": "Three Essays Collective",
+      "isbn": "978-8188789221",
+      "links": [
+        {
+          "label": "Publisher",
+          "url": "https://www.threeessays.com"
+        }
+      ],
+      "notes": "Explores economic development, culture, and human rights issues in Punjab and broader contexts"
+    },
+    {
+      "id": "b_005",
+      "title": "Punjabi Identity in a Global Context",
+      "authors": "Pritam Singh and S.S. Thandi (eds)",
+      "year": 2015,
+      "publisher": "Oxford University Press (Reprint)",
+      "isbn": "978-0195695656",
+      "links": [
+        {
+          "label": "OUP",
+          "url": "https://global.oup.com"
+        }
+      ],
+      "notes": "Co-edited volume addressing Punjabi identity in diaspora and multicultural contexts"
     }
   ]
 }
