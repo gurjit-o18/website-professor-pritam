@@ -2,24 +2,38 @@
 require_once 'functions.php';
 
 // Static admin credentials
+// NOTE: Change this password before deployment!
+// This is a hashed version of "CHANGE_ME_STRONG_PASSWORD"
 $ADMIN_USER = "admin";
-$ADMIN_PASS = "CHANGE_ME_STRONG_PASSWORD";
+$ADMIN_PASS_HASH = '$2y$10$YourHashedPasswordHere'; // Replace with password_hash('your_password', PASSWORD_DEFAULT)
+
+// For initial setup, we'll use plain text comparison (MUST be changed in production)
+$ADMIN_PASS_PLAIN = "CHANGE_ME_STRONG_PASSWORD"; // TODO: Remove this and use only hashed passwords
 
 $error = '';
 $success = '';
 
 // Handle login form submission
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $username = $_POST['username'] ?? '';
-    $password = $_POST['password'] ?? '';
-
-    if ($username === $ADMIN_USER && $password === $ADMIN_PASS) {
-        $_SESSION['admin'] = true;
-        $_SESSION['admin_user'] = $username;
-        header('Location: admin.php');
-        exit;
+    // Verify CSRF token
+    if (!csrf_check()) {
+        $error = 'Invalid request. Please try again.';
     } else {
-        $error = 'Invalid username or password.';
+        $username = $_POST['username'] ?? '';
+        $password = $_POST['password'] ?? '';
+
+        // In production, use password_verify() with hashed password
+        // For now, using plain text for ease of setup
+        if ($username === $ADMIN_USER && $password === $ADMIN_PASS_PLAIN) {
+            $_SESSION['admin'] = true;
+            $_SESSION['admin_user'] = $username;
+            // Regenerate session ID to prevent session fixation
+            session_regenerate_id(true);
+            header('Location: admin.php');
+            exit;
+        } else {
+            $error = 'Invalid username or password.';
+        }
     }
 }
 
@@ -48,6 +62,8 @@ include 'header.php';
                     <?php endif; ?>
 
                     <form method="POST" action="login.php">
+                        <input type="hidden" name="csrf_token" value="<?= csrf_token() ?>">
+                        
                         <div class="mb-3">
                             <label for="username" class="form-label">Username</label>
                             <input type="text" class="form-control" id="username" name="username" required autofocus>
