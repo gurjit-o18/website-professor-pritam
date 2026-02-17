@@ -1,0 +1,20 @@
+{
+  "name": "Professor Pritam Singh",
+  "title": "Emeritus Professor of Economics",
+  "institution": "Oxford Brookes University, Oxford, UK",
+  "email": "psingh@brookes.ac.uk",
+  "bio": "Professor Pritam Singh is Emeritus Professor at Oxford Brookes Business School with extensive research in development, sustainability, and political economy focusing on India and Punjab. He has led research on sustainability implications of spatial shifts in global capitalism and Indian capitalism with emphasis on decentralisation and human rights.",
+  "education": {
+    "DPhil": "University of Oxford (Oriel College), awarded Edward Boyle/Charles Wallace Scholarship",
+    "MPhil": "Jawaharlal Nehru University, New Delhi, India",
+    "MA_BA": "MA & BA Hons School in Economics, Panjab University, Chandigarh, India"
+  },
+  "research_interests": [
+    "Development Economics",
+    "Environmental Economics",
+    "Comparative Economic Systems",
+    "Sustainability and Spatial Shift in Global Economy",
+    "Indian Capitalism and Human Rights"
+  ],
+  "institution_profile_url": "https://www.brookes.ac.uk/profiles/staff/pritam-singh"
+}

@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "id": "a_001",
+      "title": "Credit scoring: a historic recurrence in microfinance",
+      "source": "Strategic Change",
+      "date": "2017-01-01",
+      "url": "https://onlinelibrary.wiley.com/journal/10991697",
+      "summary": "Examines the historical patterns and implications of credit scoring systems in microfinance"
+    },
+    {
+      "id": "a_002",
+      "title": "Poverty scoring and financial inclusion of the poor",
+      "source": "Strategic Change",
+      "date": "2017-01-01",
+      "url": "https://onlinelibrary.wiley.com/journal/10991697",
+      "summary": "Analyzes poverty scoring mechanisms and their role in financial inclusion initiatives"
+    },
+    {
+      "id": "a_003",
+      "title": "Aam Aadmi Party as Third Player in Punjab Politics",
+      "source": "Economic and Political Weekly",
+      "date": "2017-01-01",
+      "url": "https://www.epw.in",
+      "summary": "Analyzes the emergence and impact of the Aam Aadmi Party in Punjab's political landscape"
+    },
+    {
+      "id": "a_004",
+      "title": "The Political Economy of the Cycles of Violence and Non-violence in the Sikh Struggle for Identity and Political Power",
+      "source": "Third World Quarterly",
+      "date": "2007-08-01",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/01436590701464723",
+      "summary": "Analyzes the Sikh political movement and its implications for federal structures and minority rights in India"
+    },
+    {
+      "id": "a_005",
+      "title": "The resurgence of Bhindranwale's image in contemporary Punjab",
+      "source": "Contemporary South Asia",
+      "date": "2013-06-01",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/09584935.2013.788140",
+      "summary": "Discusses the political and cultural significance of religious leadership in Punjab's contemporary context"
+    },
+    {
+      "id": "a_006",
+      "title": "Federalism and the Accommodation of Distinct Groups: A Comparative Study of the Indian and Pakistani Experiences",
+      "source": "Publius: The Journal of Federalism",
+      "date": "2011-01-01",
+      "url": "https://academic.oup.com/publius",
+      "summary": "Comparative analysis of federal systems and minority accommodation in South Asian contexts"
+    },
+    {
+      "id": "a_007",
+      "title": "Culture and the Economy: Understanding the Dynamics of Globalization",
+      "source": "Journal of Development Studies",
+      "date": "2008-05-01",
+      "url": "https://www.tandfonline.com/toc/fjds20/current",
+      "summary": "Explores the relationship between cultural factors and economic development in the context of globalization"
+    },
+    {
+      "id": "a_008",
+      "title": "Sustainability and Economic Development",
+      "source": "International Journal of Green Economics",
+      "date": "2005-01-01",
+      "url": "https://www.inderscience.com/jhome.php?jcode=ijge",
+      "summary": "Examines the intersection of environmental sustainability and economic development strategies"
+    }
+  ]
+}
