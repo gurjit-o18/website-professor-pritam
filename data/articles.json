@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "id": "a_001",
+      "title": "The Future of International Human Rights Law",
+      "source": "Oxford Journal of Legal Studies",
+      "date": "2023-06-15",
+      "url": "https://academic.oup.com/example",
+      "summary": "An examination of emerging challenges and opportunities in international human rights law"
+    },
+    {
+      "id": "a_002",
+      "title": "Sovereignty in the Age of Globalization",
+      "source": "International Affairs Review",
+      "date": "2022-11-20",
+      "url": "https://www.cambridge.org/example",
+      "summary": "Discusses how globalization impacts traditional notions of state sovereignty"
+    },
+    {
+      "id": "a_003",
+      "title": "Climate Change and International Law",
+      "source": "Environmental Law Quarterly",
+      "date": "2024-01-10",
+      "url": "https://www.environmentallawreview.com/example",
+      "summary": "Analyzes the legal frameworks for addressing climate change at the international level"
+    }
+  ]
+}
