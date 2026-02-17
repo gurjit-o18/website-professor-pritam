@@ -12,12 +12,12 @@ include 'header.php';
             <div class="card">
                 <div class="card-body">
                     <h4>Professor Pritam Singh</h4>
-                    <p class="mb-3">Professor of International Law<br>University of Oxford</p>
+                    <p class="mb-3">Emeritus Professor of Economics<br>Oxford Brookes University</p>
 
                     <div class="contact-info">
-                        <p><strong>Office:</strong> Oxford Law Faculty Building</p>
-                        <p><strong>Email:</strong> pritam.singh@law.ox.ac.uk</p>
-                        <p><strong>Office Hours:</strong> By appointment</p>
+                        <p><strong>Email:</strong> psingh@brookes.ac.uk</p>
+                        <p><strong>Institution Profile:</strong> <a href="https://www.brookes.ac.uk/profiles/staff/pritam-singh" target="_blank">View Profile</a></p>
+                        <p><strong>Academia.edu:</strong> <a href="https://oxfordbrookes.academia.edu/PritamSingh" target="_blank">View Profile</a></p>
                     </div>
 
                     <div class="mt-4">
@@ -32,24 +32,26 @@ include 'header.php';
             <div class="card">
                 <div class="card-body">
                     <h4>Location</h4>
-                    <p>University of Oxford<br>
-                    Faculty of Law<br>
-                    St Cross Building<br>
-                    St Cross Road<br>
-                    Oxford OX1 3UL<br>
-                    United Kingdom</p>
+                    <p>Oxford Brookes University<br>
+                    Oxford Brookes Business School<br>
+                    Oxford, UK</p>
 
                     <div class="mt-4">
                         <h5>Useful Links</h5>
                         <ul class="list-unstyled">
                             <li class="mb-2">
-                                <a href="https://www.law.ox.ac.uk" target="_blank" class="text-decoration-none">
-                                    Oxford Law Faculty
+                                <a href="https://www.brookes.ac.uk/profiles/staff/pritam-singh" target="_blank" class="text-decoration-none">
+                                    Oxford Brookes Profile
                                 </a>
                             </li>
                             <li class="mb-2">
-                                <a href="https://www.ox.ac.uk" target="_blank" class="text-decoration-none">
-                                    University of Oxford
+                                <a href="https://oxfordbrookes.academia.edu/PritamSingh" target="_blank" class="text-decoration-none">
+                                    Academia.edu Profile
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="https://www.brookes.ac.uk" target="_blank" class="text-decoration-none">
+                                    Oxford Brookes University
                                 </a>
                             </li>
                         </ul>

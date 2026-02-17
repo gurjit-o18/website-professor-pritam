@@ -2,23 +2,33 @@
   "items": [
     {
       "id": "v_001",
-      "title": "Understanding International Law",
+      "title": "Keynote: Egalitarianism in Guru Nanak's Teachings (Canadian Punjabi Conference)",
       "platform": "YouTube",
-      "url": "https://youtube.com/watch?v=example1",
-      "published_date": "2024-11-20",
-      "duration": "26:16",
-      "channel": "Oxford Academic",
-      "notes": "A lecture on the fundamentals of international law"
+      "url": "https://www.youtube.com/watch?v=etmnhyExEXk",
+      "published_date": "2019-05-01",
+      "duration": "N/A",
+      "channel": "Canadian Punjabi Conference",
+      "notes": "Keynote address at the 4th Canadian Punjabi Conference exploring egalitarian principles in Sikh teachings"
     },
     {
       "id": "v_002",
-      "title": "Human Rights in Practice",
-      "platform": "Vimeo",
-      "url": "https://vimeo.com/example2",
-      "published_date": "2024-09-15",
-      "duration": "45:30",
-      "channel": "Legal Studies Network",
-      "notes": "Panel discussion on practical applications of human rights law"
+      "title": "Sikh Think Tank – Left and Panjabi Sikh Politics: Past & Future",
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/watch?v=SxaNLJ_7WLY",
+      "published_date": "2020-01-01",
+      "duration": "N/A",
+      "channel": "Sikh Think Tank",
+      "notes": "Discussion on the intersection of leftist politics and Punjabi Sikh political movements"
+    },
+    {
+      "id": "v_003",
+      "title": "TV interview on Economy, Culture and Human Rights (Sky/Sikh Channel)",
+      "platform": "Television",
+      "url": "#",
+      "published_date": "2010-01-01",
+      "duration": "N/A",
+      "channel": "Sky/Sikh Channel",
+      "notes": "Extended interview regarding his book 'Economy, Culture and Human Rights'"
     }
   ]
 }

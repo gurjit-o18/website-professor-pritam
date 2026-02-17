@@ -1,18 +1,20 @@
 {
   "name": "Professor Pritam Singh",
-  "title": "Professor of International Law",
-  "institution": "University of Oxford",
-  "bio": "Professor Pritam Singh is a leading scholar in international law and human rights. He has published extensively on topics including sovereignty, global justice, and international legal frameworks. His work has influenced both academic discourse and policy development in the field of international law.",
-  "education": [
-    "DPhil in Law, University of Oxford",
-    "LLM, Harvard Law School",
-    "BA in Law, Delhi University"
-  ],
+  "title": "Emeritus Professor of Economics",
+  "institution": "Oxford Brookes University, Oxford, UK",
+  "email": "psingh@brookes.ac.uk",
+  "bio": "Professor Pritam Singh is Emeritus Professor at Oxford Brookes Business School with extensive research in development, sustainability, and political economy focusing on India and Punjab. He has led research on sustainability implications of spatial shifts in global capitalism and Indian capitalism with emphasis on decentralisation and human rights.",
+  "education": {
+    "DPhil": "University of Oxford (Oriel College), awarded Edward Boyle/Charles Wallace Scholarship",
+    "MPhil": "Jawaharlal Nehru University, New Delhi, India",
+    "MA_BA": "MA & BA Hons School in Economics, Panjab University, Chandigarh, India"
+  },
   "research_interests": [
-    "International Law",
-    "Human Rights",
-    "Global Justice",
-    "Sovereignty",
-    "Climate Law"
-  ]
+    "Development Economics",
+    "Environmental Economics",
+    "Comparative Economic Systems",
+    "Sustainability and Spatial Shift in Global Economy",
+    "Indian Capitalism and Human Rights"
+  ],
+  "institution_profile_url": "https://www.brookes.ac.uk/profiles/staff/pritam-singh"
 }

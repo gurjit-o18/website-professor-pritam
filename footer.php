@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <h5>Professor Pritam Singh</h5>
-                    <p>Professor of International Law<br>University of Oxford</p>
+                    <p>Emeritus Professor of Economics<br>Oxford Brookes University</p>
                 </div>
                 <div class="col-md-6 text-md-end">
                     <p class="mb-0">&copy; <?= date('Y') ?> Professor Pritam Singh. All rights reserved.</p>

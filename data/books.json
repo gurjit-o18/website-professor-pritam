@@ -2,37 +2,56 @@
   "items": [
     {
       "id": "b_001",
-      "title": "International Law and Human Rights",
+      "title": "Federalism, Nationalism and Development: India and the Punjab Economy",
       "authors": "Pritam Singh",
-      "year": 2018,
-      "publisher": "Oxford University Press",
-      "isbn": "978-0198765431",
+      "year": 2008,
+      "publisher": "Routledge",
+      "isbn": "978-0415568654",
       "links": [
         {
-          "label": "Amazon",
-          "url": "https://www.amazon.com/example"
+          "label": "Routledge",
+          "url": "https://www.routledge.com/"
         },
         {
-          "label": "Publisher",
-          "url": "https://global.oup.com/example"
+          "label": "Amazon",
+          "url": "https://www.amazon.com/s?k=Federalism+Nationalism+and+Development+Pritam+Singh"
         }
       ],
-      "notes": "A comprehensive analysis of international law frameworks"
+      "notes": "Reprint 2009 - Groundbreaking methodological contribution on federalism and development in India"
     },
     {
       "id": "b_002",
-      "title": "Global Justice and Sovereignty",
+      "title": "Economy, Culture and Human Rights: Turbulence in Punjab, India and Beyond",
       "authors": "Pritam Singh",
-      "year": 2020,
-      "publisher": "Cambridge University Press",
-      "isbn": "978-1108471237",
+      "year": 2010,
+      "publisher": "Three Essays Collective",
+      "isbn": "978-8188789221",
       "links": [
         {
           "label": "Amazon",
-          "url": "https://www.amazon.com/example2"
+          "url": "https://www.amazon.com/s?k=Economy+Culture+Human+Rights+Pritam+Singh"
         }
       ],
-      "notes": "Explores the tension between national sovereignty and global justice"
+      "notes": "Explores economic development, culture, and human rights issues in Punjab and broader contexts"
+    },
+    {
+      "id": "b_003",
+      "title": "Punjabi Identity in a Global Context",
+      "authors": "Pritam Singh and Shinder Singh Thandi (eds)",
+      "year": 1999,
+      "publisher": "Oxford University Press",
+      "isbn": "978-0195648645",
+      "links": [
+        {
+          "label": "OUP",
+          "url": "https://global.oup.com/"
+        },
+        {
+          "label": "Amazon",
+          "url": "https://www.amazon.com/s?k=Punjabi+Identity+in+a+Global+Context+Pritam+Singh"
+        }
+      ],
+      "notes": "Reprint 2015 - Co-edited volume addressing Punjabi identity in diaspora and multicultural contexts"
     }
   ]
 }
