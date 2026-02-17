@@ -17,12 +17,19 @@ include 'header.php';
 <!-- Hero Section -->
 <section class="hero-section">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-8 mx-auto text-center">
+        <div class="row align-items-center">
+            <div class="col-lg-4 text-center mb-4 mb-lg-0">
+                <img src="assets/img/professor-placeholder.svg" alt="Professor Pritam Singh" class="img-fluid rounded-circle shadow" style="max-width: 250px;">
+            </div>
+            <div class="col-lg-8">
                 <h1>Professor Pritam Singh</h1>
-                <p class="lead">Emeritus Professor of Economics at Oxford Brookes University</p>
-                <p class="lead">Specializing in Federalism, Development Studies, Human Rights, and Governance</p>
-                <a href="about.php" class="btn btn-light btn-lg mt-3">Learn More</a>
+                <p class="lead">Emeritus Professor of Economics</p>
+                <p class="lead">Oxford Brookes University, Oxford, UK</p>
+                <p class="mb-4">Specializing in Development Economics, Sustainability, and Political Economy with focus on India and Punjab</p>
+                <div class="d-flex flex-wrap gap-2">
+                    <a href="about.php" class="btn btn-light btn-lg">Learn More</a>
+                    <a href="contact.php" class="btn btn-outline-light btn-lg">Contact</a>
+                </div>
             </div>
         </div>
     </div>

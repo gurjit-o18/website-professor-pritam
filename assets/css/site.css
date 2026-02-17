@@ -27,12 +27,32 @@ main {
 .hero-section h1 {
     font-size: 3rem;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .hero-section .lead {
     font-size: 1.25rem;
     opacity: 0.95;
+    margin-bottom: 10px;
+}
+
+.hero-section img {
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.hero-section img:hover {
+    transform: scale(1.05);
+}
+
+.btn-outline-light {
+    border: 2px solid white;
+    color: white;
+}
+
+.btn-outline-light:hover {
+    background-color: white;
+    color: var(--primary-color);
 }
 
 .card {

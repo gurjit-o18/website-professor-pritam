@@ -15,19 +15,41 @@ include 'header.php';
 
             <div class="bio-section mb-4">
                 <h3>Biography</h3>
-                <p>Professor Pritam Singh is a distinguished scholar in economics and development studies with a focus on federalism, nationalism, human rights, and governance. He earned his doctorate at the University of Oxford and has held affiliations including Visiting Scholar at Wolfson College, Oxford, and Research Associate at the Department of International Development, Oxford.</p>
+                <p>Professor Pritam Singh is Emeritus Professor at Oxford Brookes Business School with extensive research in development, sustainability, and political economy focusing on India and Punjab. He earned his doctorate at the University of Oxford (Oriel College) where he was awarded the prestigious Edward Boyle/Charles Wallace Scholarship.</p>
                 <p>His research examines the intersection of economics, political structures, minority rights, and governance, particularly in India and Punjab, with implications for international human rights debates. Professor Singh's work is characterized by its interdisciplinary approach, bridging economics, political science, and legal studies.</p>
-                <p>Throughout his career, Professor Singh has contributed significantly to our understanding of federal systems, communalism, and the political economy of South Asia. He serves on the editorial boards of several prestigious journals including Capitalism Nature Socialism, International Journal of Pluralism and Economics Education, and Brookes eJournal of Teaching and Learning.</p>
+                <p>He has led groundbreaking research on sustainability implications of spatial shifts in global capitalism and Indian capitalism with emphasis on decentralisation and human rights. Throughout his career, Professor Singh has contributed significantly to our understanding of federal systems, development economics, and the political economy of South Asia.</p>
+            </div>
+
+            <div class="achievements-section mb-4">
+                <h3>Key Achievements</h3>
+                <ul class="list-unstyled">
+                    <li class="mb-2">
+                        <i class="text-primary">✓</i> Led research on sustainability implications of spatial shifts in global capitalism and Indian capitalism with emphasis on decentralisation and human rights
+                    </li>
+                    <li class="mb-2">
+                        <i class="text-primary">✓</i> Editorial board member of several journals including Capitalism Nature Socialism and International Journal of Punjab Studies
+                    </li>
+                    <li class="mb-2">
+                        <i class="text-primary">✓</i> Published pathbreaking books on Indian federalism, development, and human rights
+                    </li>
+                    <li class="mb-2">
+                        <i class="text-primary">✓</i> Invited keynote speaker at international academic conferences including Canadian Punjabi Conference 2019
+                    </li>
+                </ul>
             </div>
 
             <div class="education-section mb-4">
                 <h3>Education</h3>
                 <ul class="list-unstyled">
                     <li class="mb-2">
-                        <i class="text-primary">🎓</i> DPhil, University of Oxford
+                        <i class="text-primary">🎓</i> <strong>DPhil</strong> - University of Oxford (Oriel College)<br>
+                        <small class="text-muted">Awarded Edward Boyle/Charles Wallace Scholarship</small>
                     </li>
                     <li class="mb-2">
-                        <i class="text-primary">🎓</i> MA in Economics
+                        <i class="text-primary">🎓</i> <strong>MPhil</strong> - Jawaharlal Nehru University, New Delhi, India
+                    </li>
+                    <li class="mb-2">
+                        <i class="text-primary">🎓</i> <strong>MA & BA Hons School in Economics</strong> - Panjab University, Chandigarh, India
                     </li>
                 </ul>
             </div>
@@ -35,12 +57,11 @@ include 'header.php';
             <div class="research-section mb-4">
                 <h3>Research Interests</h3>
                 <div class="d-flex flex-wrap gap-2">
-                    <span class="badge bg-primary fs-6">Economics and Development Studies</span>
-                    <span class="badge bg-primary fs-6">Federalism and Nationalism</span>
-                    <span class="badge bg-primary fs-6">Human Rights</span>
-                    <span class="badge bg-primary fs-6">Governance and Political Economy</span>
-                    <span class="badge bg-primary fs-6">Minority Rights and Communalism</span>
-                    <span class="badge bg-primary fs-6">Punjabi Identity and Diaspora Studies</span>
+                    <span class="badge bg-primary fs-6">Development Economics</span>
+                    <span class="badge bg-primary fs-6">Environmental Economics</span>
+                    <span class="badge bg-primary fs-6">Comparative Economic Systems</span>
+                    <span class="badge bg-primary fs-6">Sustainability and Spatial Shift in Global Economy</span>
+                    <span class="badge bg-primary fs-6">Indian Capitalism and Human Rights</span>
                 </div>
             </div>
 
@@ -57,10 +78,29 @@ include 'header.php';
                         <i class="text-primary">▪</i> Editorial Board Member, Capitalism Nature Socialism
                     </li>
                     <li class="mb-2">
+                        <i class="text-primary">▪</i> Editorial Board Member, International Journal of Punjab Studies
+                    </li>
+                    <li class="mb-2">
                         <i class="text-primary">▪</i> Editorial Board Member, International Journal of Pluralism and Economics Education
                     </li>
                     <li class="mb-2">
                         <i class="text-primary">▪</i> Editorial Board Member, Brookes eJournal of Teaching and Learning
+                    </li>
+                </ul>
+            </div>
+
+            <div class="profiles-section mb-4">
+                <h3>Academic Profiles</h3>
+                <ul class="list-unstyled">
+                    <li class="mb-2">
+                        <a href="https://www.brookes.ac.uk/profiles/staff/pritam-singh" target="_blank" class="text-decoration-none">
+                            🔗 Oxford Brookes University Profile
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="https://oxfordbrookes.academia.edu/PritamSingh" target="_blank" class="text-decoration-none">
+                            🔗 Academia.edu Profile
+                        </a>
                     </li>
                 </ul>
             </div>

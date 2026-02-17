@@ -2,43 +2,33 @@
   "items": [
     {
       "id": "v_001",
-      "title": "Federalism and Development in India",
+      "title": "Keynote: Egalitarianism in Guru Nanak's Teachings (Canadian Punjabi Conference)",
       "platform": "YouTube",
-      "url": "https://www.youtube.com/watch?v=lecture1",
-      "published_date": "2019-05-20",
-      "duration": "45:30",
-      "channel": "Oxford Brookes University",
-      "notes": "A lecture on the relationship between federalism and economic development in India"
+      "url": "https://www.youtube.com/watch?v=etmnhyExEXk",
+      "published_date": "2019-05-01",
+      "duration": "N/A",
+      "channel": "Canadian Punjabi Conference",
+      "notes": "Keynote address at the 4th Canadian Punjabi Conference exploring egalitarian principles in Sikh teachings"
     },
     {
       "id": "v_002",
-      "title": "Human Rights and Governance in South Asia",
+      "title": "Sikh Think Tank – Left and Panjabi Sikh Politics: Past & Future",
       "platform": "YouTube",
-      "url": "https://www.youtube.com/watch?v=lecture2",
-      "published_date": "2018-09-15",
-      "duration": "52:18",
-      "channel": "Academic Conference Series",
-      "notes": "Panel discussion on human rights challenges and governance structures in South Asia"
+      "url": "https://www.youtube.com/watch?v=SxaNLJ_7WLY",
+      "published_date": "2020-01-01",
+      "duration": "N/A",
+      "channel": "Sikh Think Tank",
+      "notes": "Discussion on the intersection of leftist politics and Punjabi Sikh political movements"
     },
     {
       "id": "v_003",
-      "title": "The Political Economy of Punjab",
-      "platform": "Vimeo",
-      "url": "https://vimeo.com/lecture3",
-      "published_date": "2020-03-10",
-      "duration": "38:45",
-      "channel": "Development Studies Network",
-      "notes": "Presentation on the economic and political challenges facing Punjab"
-    },
-    {
-      "id": "v_004",
-      "title": "Nationalism and Identity in Global Context",
-      "platform": "YouTube",
-      "url": "https://www.youtube.com/watch?v=lecture4",
-      "published_date": "2017-11-08",
-      "duration": "41:22",
-      "channel": "International Studies Forum",
-      "notes": "Discussion on the interplay between nationalism, identity, and globalization"
+      "title": "TV interview on Economy, Culture and Human Rights (Sky/Sikh Channel)",
+      "platform": "Television",
+      "url": "#",
+      "published_date": "2010-01-01",
+      "duration": "N/A",
+      "channel": "Sky/Sikh Channel",
+      "notes": "Extended interview regarding his book 'Economy, Culture and Human Rights'"
     }
   ]
 }
