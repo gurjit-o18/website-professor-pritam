@@ -1,107 +1,121 @@
 <?php
 require_once 'functions.php';
 
+// Load bio data
+$bio = read_json('data/bio.json');
+
 include 'header.php';
 ?>
 
 <main class="container my-5">
-    <h1 class="section-title">About Professor Pritam Singh</h1>
+    <h1 class="section-title">About <?= h($bio['name']) ?></h1>
 
     <div class="row">
         <div class="col-lg-8">
-            <h2>Professor Pritam Singh</h2>
-            <h4 class="text-muted">Emeritus Professor of Economics</h4>
-            <h5 class="text-muted mb-4">Oxford Brookes University</h5>
+            <h2><?= h($bio['name']) ?></h2>
+            <h4 class="text-muted"><?= h($bio['title']) ?></h4>
+            <h5 class="text-muted mb-4"><?= h($bio['institution']) ?></h5>
 
             <div class="bio-section mb-4">
                 <h3>Biography</h3>
-                <p>Professor Pritam Singh is Emeritus Professor at Oxford Brookes Business School with extensive research in development, sustainability, and political economy focusing on India and Punjab. He earned his doctorate at the University of Oxford (Oriel College) where he was awarded the prestigious Edward Boyle/Charles Wallace Scholarship.</p>
-                <p>His research examines the intersection of economics, political structures, minority rights, and governance, particularly in India and Punjab, with implications for international human rights debates. Professor Singh's work is characterized by its interdisciplinary approach, bridging economics, political science, and legal studies.</p>
-                <p>He has led groundbreaking research on sustainability implications of spatial shifts in global capitalism and Indian capitalism with emphasis on decentralisation and human rights. Throughout his career, Professor Singh has contributed significantly to our understanding of federal systems, development economics, and the political economy of South Asia.</p>
+                <p><?= h($bio['bio']) ?></p>
             </div>
 
-            <div class="achievements-section mb-4">
-                <h3>Key Achievements</h3>
+            <?php if (!empty($bio['prior_positions'])): ?>
+            <div class="positions-section mb-4">
+                <h3>Prior Positions</h3>
                 <ul class="list-unstyled">
+                    <?php foreach ($bio['prior_positions'] as $position): ?>
                     <li class="mb-2">
-                        <i class="text-primary">✓</i> Led research on sustainability implications of spatial shifts in global capitalism and Indian capitalism with emphasis on decentralisation and human rights
+                        <i class="text-primary">✓</i> <?= h($position) ?>
                     </li>
-                    <li class="mb-2">
-                        <i class="text-primary">✓</i> Editorial board member of several journals including Capitalism Nature Socialism and International Journal of Punjab Studies
-                    </li>
-                    <li class="mb-2">
-                        <i class="text-primary">✓</i> Published pathbreaking books on Indian federalism, development, and human rights
-                    </li>
-                    <li class="mb-2">
-                        <i class="text-primary">✓</i> Invited keynote speaker at international academic conferences including Canadian Punjabi Conference 2019
-                    </li>
+                    <?php endforeach; ?>
                 </ul>
             </div>
+            <?php endif; ?>
 
+            <?php if (!empty($bio['administrative_roles'])): ?>
+            <div class="achievements-section mb-4">
+                <h3>Administrative Roles & Honors</h3>
+                <ul class="list-unstyled">
+                    <?php foreach ($bio['administrative_roles'] as $role): ?>
+                    <li class="mb-2">
+                        <i class="text-primary">✓</i> <?= h($role) ?>
+                    </li>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+            <?php endif; ?>
+
+            <?php if (!empty($bio['supervision'])): ?>
+            <div class="supervision-section mb-4">
+                <h3>Doctoral Supervision</h3>
+                <p><?= h($bio['supervision']) ?></p>
+            </div>
+            <?php endif; ?>
+
+            <?php if (!empty($bio['education'])): ?>
             <div class="education-section mb-4">
                 <h3>Education</h3>
                 <ul class="list-unstyled">
+                    <?php if (!empty($bio['education']['DPhil'])): ?>
                     <li class="mb-2">
-                        <i class="text-primary">🎓</i> <strong>DPhil</strong> - University of Oxford (Oriel College)<br>
-                        <small class="text-muted">Awarded Edward Boyle/Charles Wallace Scholarship</small>
+                        <i class="text-primary">🎓</i> <strong>DPhil</strong> - <?= h($bio['education']['DPhil']) ?>
                     </li>
+                    <?php endif; ?>
+                    <?php if (!empty($bio['education']['MPhil'])): ?>
                     <li class="mb-2">
-                        <i class="text-primary">🎓</i> <strong>MPhil</strong> - Jawaharlal Nehru University, New Delhi, India
+                        <i class="text-primary">🎓</i> <strong>MPhil</strong> - <?= h($bio['education']['MPhil']) ?>
                     </li>
+                    <?php endif; ?>
+                    <?php if (!empty($bio['education']['MA_BA'])): ?>
                     <li class="mb-2">
-                        <i class="text-primary">🎓</i> <strong>MA & BA Hons School in Economics</strong> - Panjab University, Chandigarh, India
+                        <i class="text-primary">🎓</i> <strong>MA & BA Hons School in Economics</strong> - <?= h($bio['education']['MA_BA']) ?>
                     </li>
+                    <?php endif; ?>
                 </ul>
             </div>
+            <?php endif; ?>
 
+            <?php if (!empty($bio['research_interests'])): ?>
             <div class="research-section mb-4">
                 <h3>Research Interests</h3>
                 <div class="d-flex flex-wrap gap-2">
-                    <span class="badge bg-primary fs-6">Development Economics</span>
-                    <span class="badge bg-primary fs-6">Environmental Economics</span>
-                    <span class="badge bg-primary fs-6">Comparative Economic Systems</span>
-                    <span class="badge bg-primary fs-6">Sustainability and Spatial Shift in Global Economy</span>
-                    <span class="badge bg-primary fs-6">Indian Capitalism and Human Rights</span>
+                    <?php foreach ($bio['research_interests'] as $interest): ?>
+                    <span class="badge bg-primary fs-6"><?= h($interest) ?></span>
+                    <?php endforeach; ?>
                 </div>
             </div>
+            <?php endif; ?>
 
-            <div class="affiliations-section mb-4">
-                <h3>Professional Affiliations</h3>
-                <ul class="list-unstyled">
-                    <li class="mb-2">
-                        <i class="text-primary">▪</i> Visiting Scholar, Wolfson College, Oxford
-                    </li>
-                    <li class="mb-2">
-                        <i class="text-primary">▪</i> Research Associate, Department of International Development, University of Oxford
-                    </li>
-                    <li class="mb-2">
-                        <i class="text-primary">▪</i> Editorial Board Member, Capitalism Nature Socialism
-                    </li>
-                    <li class="mb-2">
-                        <i class="text-primary">▪</i> Editorial Board Member, International Journal of Punjab Studies
-                    </li>
-                    <li class="mb-2">
-                        <i class="text-primary">▪</i> Editorial Board Member, International Journal of Pluralism and Economics Education
-                    </li>
-                    <li class="mb-2">
-                        <i class="text-primary">▪</i> Editorial Board Member, Brookes eJournal of Teaching and Learning
-                    </li>
-                </ul>
+            <?php if (!empty($bio['teaching_interests'])): ?>
+            <div class="teaching-section mb-4">
+                <h3>Teaching Interests</h3>
+                <div class="d-flex flex-wrap gap-2">
+                    <?php foreach ($bio['teaching_interests'] as $interest): ?>
+                    <span class="badge bg-secondary fs-6"><?= h($interest) ?></span>
+                    <?php endforeach; ?>
+                </div>
             </div>
+            <?php endif; ?>
 
             <div class="profiles-section mb-4">
                 <h3>Academic Profiles</h3>
                 <ul class="list-unstyled">
+                    <?php if (!empty($bio['institution_profile_url'])): ?>
                     <li class="mb-2">
-                        <a href="https://www.brookes.ac.uk/profiles/staff/pritam-singh" target="_blank" class="text-decoration-none">
+                        <a href="<?= h($bio['institution_profile_url']) ?>" target="_blank" class="text-decoration-none">
                             🔗 Oxford Brookes University Profile
                         </a>
                     </li>
+                    <?php endif; ?>
+                    <?php if (!empty($bio['google_scholar_url'])): ?>
                     <li class="mb-2">
-                        <a href="https://oxfordbrookes.academia.edu/PritamSingh" target="_blank" class="text-decoration-none">
-                            🔗 Academia.edu Profile
+                        <a href="<?= h($bio['google_scholar_url']) ?>" target="_blank" class="text-decoration-none">
+                            🔗 Google Scholar Profile
                         </a>
                     </li>
+                    <?php endif; ?>
                 </ul>
             </div>
         </div>
