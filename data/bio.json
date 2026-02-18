@@ -3,18 +3,41 @@
   "title": "Emeritus Professor of Economics",
   "institution": "Oxford Brookes University, Oxford, UK",
   "email": "psingh@brookes.ac.uk",
-  "bio": "Professor Pritam Singh is Emeritus Professor at Oxford Brookes Business School with extensive research in development, sustainability, and political economy focusing on India and Punjab. He has led research on sustainability implications of spatial shifts in global capitalism and Indian capitalism with emphasis on decentralisation and human rights.",
+  "bio": "Professor Pritam Singh is Emeritus Professor of Economics at Oxford Brookes Business School. His expertise spans development economics, environmental economics, comparative economic systems, and the political economy of human rights and nationalism, particularly related to India and Punjab. He leads the research cluster on Environmental and Development Economics at Oxford Brookes University. His work focuses on the sustainability implications of the spatial shift in global capitalism and Indian capitalism with emphasis on decentralisation and human rights.",
   "education": {
     "DPhil": "University of Oxford (Oriel College), awarded Edward Boyle/Charles Wallace Scholarship",
-    "MPhil": "Jawaharlal Nehru University, New Delhi, India",
-    "MA_BA": "MA & BA Hons School in Economics, Panjab University, Chandigarh, India"
+    "MPhil": "Jawaharlal Nehru University, New Delhi, India (awarded with distinction)",
+    "MA_BA": "Panjab University, Chandigarh, India"
   },
+  "prior_positions": [
+    "Teaching positions at University of Delhi and Panjab University",
+    "Visiting appointments at Jawaharlal Nehru University (Delhi), Moscow State University, and Federal University of Uberlandia (Brazil)",
+    "Research Associate at University of Oxford's Department of International Development"
+  ],
   "research_interests": [
     "Development Economics",
     "Environmental Economics",
     "Comparative Economic Systems",
-    "Sustainability and Spatial Shift in Global Economy",
-    "Indian Capitalism and Human Rights"
+    "Migration and Poverty Reduction",
+    "Sustainability and Human Development",
+    "Federalism and Development",
+    "BRICS Economies",
+    "Political Economy of Nationalism and Human Rights",
+    "Indian Capitalism and Decentralisation"
   ],
-  "institution_profile_url": "https://www.brookes.ac.uk/profiles/staff/pritam-singh"
+  "teaching_interests": [
+    "Development Economics",
+    "Environmental Economics",
+    "Comparative Economic Systems",
+    "Competing Economic Paradigms"
+  ],
+  "administrative_roles": [
+    "Leads research cluster on Environmental and Development Economics at Oxford Brookes",
+    "Managing Committee member, Association for Heterodox Economics (UK)",
+    "Economic Advisor to British House of Commons All-Party Parliamentary Committee for Punjabis in Britain",
+    "Editorial board member for multiple international journals including Brookes eJournal of Teaching and Learning and International Journal of Pluralism and Economics Education"
+  ],
+  "supervision": "Actively involved in doctoral student supervision as Director of Studies. Has supervised three PhDs to successful completion and has externally examined PhDs for universities in the UK, Ireland, India and Pakistan.",
+  "institution_profile_url": "https://www.brookes.ac.uk/profiles/staff/pritam-singh",
+  "google_scholar_url": "https://scholar.google.com/citations?user=nzRKrzoAAAAJ&hl=en"
 }
