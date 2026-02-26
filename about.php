@@ -133,6 +133,7 @@ include 'header.php';
                     <h5 class="card-title">Quick Links</h5>
                     <ul class="list-unstyled">
                         <li class="mb-2"><a href="books.php" class="text-decoration-none">📚 View Books</a></li>
+                        <li class="mb-2"><a href="chapters.php" class="text-decoration-none">📖 View Book Chapters</a></li>
                         <li class="mb-2"><a href="articles.php" class="text-decoration-none">📄 View Articles</a></li>
                         <li class="mb-2"><a href="videos.php" class="text-decoration-none">🎥 View Videos</a></li>
                         <li class="mb-2"><a href="conferences.php" class="text-decoration-none">🎤 View Conferences</a></li>

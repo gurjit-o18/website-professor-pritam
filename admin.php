@@ -5,12 +5,14 @@ require_login();
 // Load counts
 $books_data = read_json('data/books.json');
 $articles_data = read_json('data/articles.json');
+$chapters_data = read_json('data/chapters.json');
 $videos_data = read_json('data/videos.json');
 $conferences_data = read_json('data/conferences.json');
 $blog_data = read_json('data/blog.json');
 
 $books_count = count($books_data['items']);
 $articles_count = count($articles_data['items']);
+$chapters_count = count($chapters_data['items']);
 $videos_count = count($videos_data['items']);
 $conferences_count = count($conferences_data['items']);
 $blog_count = count($blog_data['items']);
@@ -29,6 +31,7 @@ include 'header.php';
                 <nav class="nav flex-column">
                     <a class="nav-link active" href="admin.php">Dashboard</a>
                     <a class="nav-link" href="admin_books.php">Manage Books</a>
+                    <a class="nav-link" href="admin_chapters.php">Manage Chapters</a>
                     <a class="nav-link" href="admin_articles.php">Manage Articles</a>
                     <a class="nav-link" href="admin_videos.php">Manage Videos</a>
                     <a class="nav-link" href="admin_conferences.php">Manage Conferences</a>
@@ -57,6 +60,16 @@ include 'header.php';
                             <h2 class="display-4"><?= $articles_count ?></h2>
                             <p class="card-text">Articles</p>
                             <a href="admin_articles.php" class="btn btn-primary">Manage</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h2 class="display-4"><?= $chapters_count ?></h2>
+                            <p class="card-text">Book Chapters</p>
+                            <a href="admin_chapters.php" class="btn btn-primary">Manage</a>
                         </div>
                     </div>
                 </div>

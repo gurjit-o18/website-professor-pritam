@@ -19,6 +19,7 @@ $pages = [
     'about.php',
     'books.php',
     'articles.php',
+    'chapters.php',
     'videos.php',
     'conferences.php',
     'blog.php',
