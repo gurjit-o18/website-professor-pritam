@@ -1,0 +1,31 @@
+{
+  "items": [
+    {
+      "id": "rev_001",
+      "year": "2010",
+      "title": "Capitalism, Nature and Eco-Socialism",
+      "source": "Economic and Political Weekly",
+      "date": "2010-03-20",
+      "notes": "Vol XLV, No.12, March 20, pp 29-33.",
+      "type": "review_article"
+    },
+    {
+      "id": "rev_002",
+      "year": "2008",
+      "title": "Review of Mridula Mukherjee, Colonializing Agriculture: The myth of Punjab Exceptionalism",
+      "source": "Journal of Punjab Studies",
+      "date": "2008-01-01",
+      "notes": "Sage, Delhi (2005).",
+      "type": "review_article"
+    },
+    {
+      "id": "rev_003",
+      "year": "2007",
+      "title": "Review of S Irfan Habib, To Make the Deaf Hear: Ideology and Programme of Bhagat Singh and His Comrades",
+      "source": "Journal of Punjab Studies",
+      "date": "2007-01-01",
+      "notes": "Three Essays Collective, Delhi (2007).",
+      "type": "review_article"
+    }
+  ]
+}

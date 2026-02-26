@@ -1,0 +1,86 @@
+{
+  "completed": [
+    {
+      "id": "ds_001",
+      "student": "A. Michael Ochurub",
+      "thesis": "Education and Development in Namibia Post Independence Period",
+      "year_completed": 2001,
+      "notes": "Second supervisor."
+    },
+    {
+      "id": "ds_002",
+      "student": "V.K. Mensah",
+      "thesis": "The Impact of Culture and Government Policies on Ghana's Economic Development",
+      "year_completed": 2008,
+      "notes": "Completed in 4 years."
+    },
+    {
+      "id": "ds_003",
+      "student": "Lok Nath Bhusal",
+      "thesis": "The Underestimation of Poverty in the Low-income Countries and its Policy Implications for Social and Economic Security",
+      "year_completed": 2012,
+      "notes": ""
+    },
+    {
+      "id": "ds_004",
+      "student": "Usman Ahmed",
+      "thesis": "Child labour and child schooling in Pakistan",
+      "year_completed": 2015,
+      "notes": "Started January 2012, completed November 2015."
+    },
+    {
+      "id": "ds_005",
+      "student": "Ita John",
+      "thesis": "Entrepreneurship and Development in Nigeria",
+      "year_completed": 2015,
+      "notes": "Started January 2012, completed December 2015."
+    },
+    {
+      "id": "ds_006",
+      "student": "Simplice Asongu",
+      "thesis": "Financial Development in Africa",
+      "year_completed": 2012,
+      "notes": "By publication route. Started September 2014."
+    },
+    {
+      "id": "ds_007",
+      "student": "Shirley Velasquez",
+      "thesis": "Impact of International Remittances on Gender Relations in Ecuador",
+      "year_completed": 2016,
+      "notes": "Started September 2011, completed September 2016."
+    }
+  ],
+  "current": [
+    {
+      "id": "ds_c001",
+      "student": "Vitalie Bumacov",
+      "thesis": "Micro finance and poverty",
+      "notes": "OBU-Burgundy Business School, Dijon, France collaboration programme (part-time)."
+    },
+    {
+      "id": "ds_c002",
+      "student": "Nadia Singh",
+      "thesis": "Bioenergy, Capitalism and Energy Needs of Developing Countries: A Case Study of Bioenergy Projects in Punjab, India",
+      "notes": "Started September 2013."
+    },
+    {
+      "id": "ds_c003",
+      "student": "Felix Shaba",
+      "thesis": "Micro finance in Nigeria",
+      "notes": "Started September 2015."
+    },
+    {
+      "id": "ds_c004",
+      "student": "Rajkamal Singh Mann",
+      "thesis": "Food deficit countries: An analysis",
+      "notes": "Started April 2016."
+    },
+    {
+      "id": "ds_c005",
+      "student": "Usman Alkali",
+      "thesis": "A Paradigm Shift from Resource-Based Economy to Knowledge Based Economy: The role of University-Industry Interaction in Nigeria",
+      "notes": "Started January 2015."
+    }
+  ],
+  "external_examination": "Has externally examined 10 PhD dissertations: one each in India and Ireland, three in the UK (Lancaster, Huddersfield and Coventry), one in the USA (Rutgers), one in Pakistan, and three in Nigeria. Also appointed external examiner for MPhil in Development Studies programme at University of Oxford from October 2016."
+}
