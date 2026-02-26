@@ -43,6 +43,12 @@ $current_page = basename($_SERVER['PHP_SELF']);
                         <a class="nav-link <?= $current_page === 'videos.php' ? 'active' : '' ?>" href="videos.php">Videos</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link <?= $current_page === 'conferences.php' ? 'active' : '' ?>" href="conferences.php">Conferences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link <?= $current_page === 'blog.php' ? 'active' : '' ?>" href="blog.php">Blog</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link <?= $current_page === 'contact.php' ? 'active' : '' ?>" href="contact.php">Contact</a>
                     </li>
                     <?php if (is_logged_in()): ?>

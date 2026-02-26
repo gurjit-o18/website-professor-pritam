@@ -20,6 +20,8 @@ $pages = [
     'books.php',
     'articles.php',
     'videos.php',
+    'conferences.php',
+    'blog.php',
     'contact.php'
 ];
 

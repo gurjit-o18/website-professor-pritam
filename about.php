@@ -116,6 +116,13 @@ include 'header.php';
                         </a>
                     </li>
                     <?php endif; ?>
+                    <?php if (!empty($bio['academia_url'])): ?>
+                    <li class="mb-2">
+                        <a href="<?= h($bio['academia_url']) ?>" target="_blank" class="text-decoration-none">
+                            🔗 Academia.edu Profile
+                        </a>
+                    </li>
+                    <?php endif; ?>
                 </ul>
             </div>
         </div>
@@ -128,6 +135,8 @@ include 'header.php';
                         <li class="mb-2"><a href="books.php" class="text-decoration-none">📚 View Books</a></li>
                         <li class="mb-2"><a href="articles.php" class="text-decoration-none">📄 View Articles</a></li>
                         <li class="mb-2"><a href="videos.php" class="text-decoration-none">🎥 View Videos</a></li>
+                        <li class="mb-2"><a href="conferences.php" class="text-decoration-none">🎤 View Conferences</a></li>
+                        <li class="mb-2"><a href="blog.php" class="text-decoration-none">📝 View Blog</a></li>
                         <li class="mb-2"><a href="contact.php" class="text-decoration-none">✉️ Contact</a></li>
                     </ul>
                 </div>

@@ -5,8 +5,10 @@ require_once 'functions.php';
 $books = read_json('data/books.json');
 $articles = read_json('data/articles.json');
 $videos = read_json('data/videos.json');
+$conferences = read_json('data/conferences.json');
+$blog = read_json('data/blog.json');
 
-// Get latest items (5 most recent)
+// Get latest items (most recent)
 $latest_books = get_latest_items($books['items'], 2);
 $latest_articles = get_latest_items($articles['items'], 2);
 $latest_videos = get_latest_items($videos['items'], 1);
@@ -62,6 +64,24 @@ include 'header.php';
                     <h3 class="card-title">🎥 Videos</h3>
                     <p class="card-text">Watch lectures and presentations on federalism, development studies, and human rights.</p>
                     <a href="videos.php" class="btn btn-primary">View Videos</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h3 class="card-title">🎤 Conferences</h3>
+                    <p class="card-text">Browse conference presentations and papers presented at international academic events.</p>
+                    <a href="conferences.php" class="btn btn-primary">View Conferences</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h3 class="card-title">📝 Blog</h3>
+                    <p class="card-text">Read opinion pieces, short writings, and commentary on economics, development, and governance.</p>
+                    <a href="blog.php" class="btn btn-primary">View Blog</a>
                 </div>
             </div>
         </div>
