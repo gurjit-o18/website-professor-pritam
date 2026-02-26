@@ -111,6 +111,7 @@ include 'header.php';
                 <nav class="nav flex-column">
                     <a class="nav-link" href="admin.php">Dashboard</a>
                     <a class="nav-link active" href="admin_books.php">Manage Books</a>
+                    <a class="nav-link" href="admin_chapters.php">Manage Chapters</a>
                     <a class="nav-link" href="admin_articles.php">Manage Articles</a>
                     <a class="nav-link" href="admin_videos.php">Manage Videos</a>
                     <a class="nav-link" href="admin_conferences.php">Manage Conferences</a>

@@ -1,6 +1,15 @@
 {
   "items": [
     {
+      "id": "a_new_001",
+      "title": "Celebrating the 50th Anniversary of Schumacher's Small is Beautiful: An Eco-Socialist Perspective",
+      "source": "Capitalism Nature Socialism",
+      "date": "2023-01-01",
+      "url": "https://www.academia.edu/124668074/Celebrating_the_50th_Anniversary_of_Schumacher_s_Small_is_Beautiful_An_Eco_Socialist_Perspective",
+      "summary": "A critical evaluation of Schumacher's 'Small is Beautiful' from an eco-socialist perspective, assessing its continuing relevance to debates on capitalism, ecology, and alternative economic models",
+      "authors": "Singh P"
+    },
+    {
       "id": "a_001",
       "title": "Credit scoring: a historic recurrence in microfinance",
       "source": "Strategic Change",

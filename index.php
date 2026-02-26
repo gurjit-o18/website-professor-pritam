@@ -52,6 +52,15 @@ include 'header.php';
         <div class="col-md-4 mb-4">
             <div class="card">
                 <div class="card-body text-center">
+                    <h3 class="card-title">📖 Book Chapters</h3>
+                    <p class="card-text">Read book chapters and contributions to edited volumes on political economy, sustainability, and South Asian studies.</p>
+                    <a href="chapters.php" class="btn btn-primary">View Chapters</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body text-center">
                     <h3 class="card-title">📄 Articles</h3>
                     <p class="card-text">Read scholarly articles on economics, development, political economy, and governance issues.</p>
                     <a href="articles.php" class="btn btn-primary">View Articles</a>

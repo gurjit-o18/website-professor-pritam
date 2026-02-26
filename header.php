@@ -40,6 +40,9 @@ $current_page = basename($_SERVER['PHP_SELF']);
                         <a class="nav-link <?= $current_page === 'articles.php' ? 'active' : '' ?>" href="articles.php">Articles</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link <?= $current_page === 'chapters.php' ? 'active' : '' ?>" href="chapters.php">Chapters</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link <?= $current_page === 'videos.php' ? 'active' : '' ?>" href="videos.php">Videos</a>
                     </li>
                     <li class="nav-item">
