@@ -22,7 +22,7 @@ include 'header.php';
                     <h5 class="card-title mb-1"><?= h($item['student']) ?></h5>
                     <p class="card-text text-muted"><em><?= h($item['thesis']) ?></em></p>
                     <div class="mt-2">
-                        <span class="badge bg-success">Completed <?= h((string)$item['year_completed']) ?></span>
+                        <span class="badge bg-success">Completed <?= h($item['year_completed']) ?></span>
                     </div>
                     <?php if (!empty($item['notes'])): ?>
                     <p class="text-muted small mt-2 mb-0"><?= h($item['notes']) ?></p>
