@@ -96,6 +96,8 @@ include 'header.php';
                     <a class="nav-link" href="admin_books.php">Manage Books</a>
                     <a class="nav-link active" href="admin_articles.php">Manage Articles</a>
                     <a class="nav-link" href="admin_videos.php">Manage Videos</a>
+                    <a class="nav-link" href="admin_conferences.php">Manage Conferences</a>
+                    <a class="nav-link" href="admin_blog.php">Manage Blog</a>
                     <a class="nav-link" href="logout.php">Logout</a>
                 </nav>
             </div>
