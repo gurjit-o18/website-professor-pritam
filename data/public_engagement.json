@@ -1,0 +1,128 @@
+{
+  "media_appearances": [
+    {
+      "id": "pe_001",
+      "year": "2016",
+      "description": "TV panel discussion on Hindu nationalism, Sky TV/Akal Channel, Birmingham",
+      "date": "2016-03-28"
+    },
+    {
+      "id": "pe_002",
+      "year": "2016",
+      "description": "TV panel discussion on Left and Punjabi and Sikh politics, Sky TV/Akal Channel, Birmingham",
+      "date": "2016-01-25"
+    },
+    {
+      "id": "pe_003",
+      "year": "2015",
+      "description": "TV panel discussion on Religion and State in South Asia, Rawal TV, Brampton, Canada",
+      "date": "2015-07-24"
+    },
+    {
+      "id": "pe_004",
+      "year": "2015",
+      "description": "Interviewed by KRPI Radio, Ferndale, US on Eco-socialism",
+      "date": "2015-07-22"
+    },
+    {
+      "id": "pe_005",
+      "year": "2015",
+      "description": "TV panel discussion on Operation Bluestar, Sky TV/Akal Channel, Birmingham",
+      "date": "2015-06-05"
+    },
+    {
+      "id": "pe_006",
+      "year": "2014",
+      "description": "TV panel on 'The Indian budget 2014', MA TV Sky 729",
+      "date": "2014-07-18"
+    },
+    {
+      "id": "pe_007",
+      "year": "2013",
+      "description": "Interviewed on Radio Russia (Hindi section) on BRICS and Indo-Russian economic ties",
+      "date": "2013-10-10"
+    },
+    {
+      "id": "pe_008",
+      "year": "2013",
+      "description": "Panelist in Al Jazeera TV discussion on the current crisis in the global economy, Oxford Union",
+      "date": "2013-05-03"
+    },
+    {
+      "id": "pe_009",
+      "year": "2012",
+      "description": "Primetime 32-minute TV interview on book Economy, Culture and Human Rights, Sikh Channel, Sky 840",
+      "date": "2012-12-09"
+    },
+    {
+      "id": "pe_010",
+      "year": "2011",
+      "description": "Interviewed by Zee TV and PTC TV Network on Economic Interests and Human Rights, Chandigarh",
+      "date": "2011-03-08"
+    },
+    {
+      "id": "pe_011",
+      "year": "2009",
+      "description": "Panelist on Zee TV discussion, 'The Declining Importance of Social Sciences in India', Chandigarh",
+      "date": "2009-08-30"
+    },
+    {
+      "id": "pe_012",
+      "year": "2009",
+      "description": "Interviewed by All India Radio on 'Risks of Global Warming to Developing Countries', Patiala, India",
+      "date": "2009-06-05"
+    }
+  ],
+  "community_activities": [
+    "Advisor to the Oxford Sikh community for over 15 years in the campaign to secure a permanent place of Sikh worship in Oxford.",
+    "As convenor of the Oxford South Asia Forum, organised discussions on South Asian issues in Oxford.",
+    "Worked with Asylum Welcome, Campaign to Close Campsfield Detention Centre, and the Medical Foundation for the Victims of Torture.",
+    "Member of Oxfordshire Standing Advisory Council for Religious Education (2007–present).",
+    "Member, International Ethics Review and Advisory Panel for Ensaaf's Punjab Documentation Project (2009–13).",
+    "Chair, Panel of Judges to select eminent Punjabis to be honoured by the House of Commons' All Party Parliamentary Committee (2005–08)."
+  ],
+  "public_lectures": [
+    {
+      "id": "pl_001",
+      "year": "2015",
+      "title": "Invited public lecture on Religion and State in South Asia",
+      "location": "Mississauga, Canada",
+      "date": "2015-07-24"
+    },
+    {
+      "id": "pl_002",
+      "year": "2014",
+      "title": "Invited public lecture on the importance of environment in Sikh religious teachings",
+      "location": "Parkley Gurdwara, Wolverhampton",
+      "date": "2014-01-01"
+    },
+    {
+      "id": "pl_003",
+      "year": "2013",
+      "title": "Spoke on the life and achievements of late President Mandela",
+      "location": "High Commission of India, London",
+      "date": "2013-12-01"
+    },
+    {
+      "id": "pl_004",
+      "year": "2010",
+      "title": "Keynote address on 'The impact of international remittances on the reduction of poverty'",
+      "location": "International development conference",
+      "date": "2010-01-01"
+    },
+    {
+      "id": "pl_005",
+      "year": "2006",
+      "title": "Lead speaker at the launch of the Punjab Development Initiative",
+      "location": "House of Commons, London",
+      "date": "2006-06-15"
+    },
+    {
+      "id": "pl_006",
+      "year": "2004",
+      "title": "Keynote speaker at a discussion on River Water Disputes in India",
+      "location": "House of Commons, London",
+      "date": "2004-11-01"
+    }
+  ]
+}

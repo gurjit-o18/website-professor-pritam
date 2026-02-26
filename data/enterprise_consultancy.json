@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "id": "ec_001",
+      "client": "Immigration and Refugee Control Board of Canada",
+      "description": "Consultancy regarding the history, culture and politics of the Punjab to aid the Board's decision-making."
+    },
+    {
+      "id": "ec_002",
+      "client": "Amnesty International",
+      "description": "Consultancy regarding human rights practices and trends in India. Invited to give lectures in Derby and London on human rights in India."
+    },
+    {
+      "id": "ec_003",
+      "client": "West Midlands Arts Council",
+      "description": "Consultancy regarding aspects of Punjab and Sikh culture and heritage."
+    },
+    {
+      "id": "ec_004",
+      "client": "House of Commons All Party Parliamentary Committee on Punjabis in Britain",
+      "description": "Provided background historical and political information as Economic Advisor (2004–2009)."
+    },
+    {
+      "id": "ec_005",
+      "client": "Canada's International Development Research Centre and South Asia Forum for Human Rights",
+      "description": "Consultancy on South Asian development and human rights issues (Hong Kong and Kathmandu)."
+    },
+    {
+      "id": "ec_006",
+      "client": "BBC World Service and BBC Oxford",
+      "description": "Provided expert advice on South Asian, Indian and Sikh affairs on multiple occasions."
+    },
+    {
+      "id": "ec_007",
+      "client": "Government of Punjab, India",
+      "description": "Appointed as Federalism Advisor (November 2012)."
+    },
+    {
+      "id": "ec_008",
+      "client": "Ecuador Presidential Commission on Alternative Financial Architecture",
+      "description": "Invited presentation on India's experience of dealing with the current global economic crisis (Quito, Ecuador, May 2011)."
+    },
+    {
+      "id": "ec_009",
+      "client": "Amnesty International Business Section",
+      "description": "Member promoting the importance of embedding human rights monitoring in the global supply chain."
+    }
+  ]
+}

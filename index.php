@@ -61,7 +61,7 @@ include 'header.php';
         <div class="col-md-4 mb-4">
             <div class="card">
                 <div class="card-body text-center">
-                    <h3 class="card-title">📄 Articles</h3>
+                    <h3 class="card-title">📄 Journal Articles</h3>
                     <p class="card-text">Read scholarly articles on economics, development, political economy, and governance issues.</p>
                     <a href="articles.php" class="btn btn-primary">View Articles</a>
                 </div>
@@ -70,17 +70,17 @@ include 'header.php';
         <div class="col-md-4 mb-4">
             <div class="card">
                 <div class="card-body text-center">
-                    <h3 class="card-title">🎥 Videos</h3>
-                    <p class="card-text">Watch lectures and presentations on federalism, development studies, and human rights.</p>
-                    <a href="videos.php" class="btn btn-primary">View Videos</a>
+                    <h3 class="card-title">📰 Newspaper Articles</h3>
+                    <p class="card-text">Over 60 articles and letters published in newspapers and news magazines in the UK and South Asia.</p>
+                    <a href="newspaper_articles.php" class="btn btn-primary">View Articles</a>
                 </div>
             </div>
         </div>
         <div class="col-md-4 mb-4">
             <div class="card">
                 <div class="card-body text-center">
-                    <h3 class="card-title">🎤 Conferences</h3>
-                    <p class="card-text">Browse conference presentations and papers presented at international academic events.</p>
+                    <h3 class="card-title">🎤 Conferences &amp; Talks</h3>
+                    <p class="card-text">Browse conference presentations and keynote addresses at international academic events worldwide.</p>
                     <a href="conferences.php" class="btn btn-primary">View Conferences</a>
                 </div>
             </div>
@@ -88,9 +88,9 @@ include 'header.php';
         <div class="col-md-4 mb-4">
             <div class="card">
                 <div class="card-body text-center">
-                    <h3 class="card-title">📝 Blog</h3>
-                    <p class="card-text">Read opinion pieces, short writings, and commentary on economics, development, and governance.</p>
-                    <a href="blog.php" class="btn btn-primary">View Blog</a>
+                    <h3 class="card-title">🌍 Global Impact</h3>
+                    <p class="card-text">Discover visiting positions, international conferences organised, and translations of work across the globe.</p>
+                    <a href="global_impact.php" class="btn btn-primary">View Impact</a>
                 </div>
             </div>
         </div>

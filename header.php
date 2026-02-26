@@ -33,23 +33,55 @@ $current_page = basename($_SERVER['PHP_SELF']);
                     <li class="nav-item">
                         <a class="nav-link <?= $current_page === 'about.php' ? 'active' : '' ?>" href="about.php">About</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link <?= $current_page === 'books.php' ? 'active' : '' ?>" href="books.php">Books</a>
+                    <!-- Profile dropdown -->
+                    <?php $profile_pages = ['education.php','academic_career.php','awards.php']; ?>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle <?= in_array($current_page, $profile_pages) ? 'active' : '' ?>" href="#" role="button" data-bs-toggle="dropdown">Profile</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item <?= $current_page === 'education.php' ? 'active' : '' ?>" href="education.php">Education</a></li>
+                            <li><a class="dropdown-item <?= $current_page === 'academic_career.php' ? 'active' : '' ?>" href="academic_career.php">Academic Career</a></li>
+                            <li><a class="dropdown-item <?= $current_page === 'awards.php' ? 'active' : '' ?>" href="awards.php">Awards &amp; Honors</a></li>
+                        </ul>
+                    </li>
+                    <!-- Publications dropdown -->
+                    <?php $pub_pages = ['books.php','articles.php','chapters.php','reviews.php','newspaper_articles.php']; ?>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle <?= in_array($current_page, $pub_pages) ? 'active' : '' ?>" href="#" role="button" data-bs-toggle="dropdown">Publications</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item <?= $current_page === 'books.php' ? 'active' : '' ?>" href="books.php">Books</a></li>
+                            <li><a class="dropdown-item <?= $current_page === 'articles.php' ? 'active' : '' ?>" href="articles.php">Journal Articles</a></li>
+                            <li><a class="dropdown-item <?= $current_page === 'chapters.php' ? 'active' : '' ?>" href="chapters.php">Book Chapters</a></li>
+                            <li><a class="dropdown-item <?= $current_page === 'reviews.php' ? 'active' : '' ?>" href="reviews.php">Reviews</a></li>
+                            <li><a class="dropdown-item <?= $current_page === 'newspaper_articles.php' ? 'active' : '' ?>" href="newspaper_articles.php">Newspaper Articles</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?= $current_page === 'articles.php' ? 'active' : '' ?>" href="articles.php">Articles</a>
+                        <a class="nav-link <?= $current_page === 'conferences.php' ? 'active' : '' ?>" href="conferences.php">Conferences &amp; Talks</a>
+                    </li>
+                    <!-- Research dropdown -->
+                    <?php $research_pages = ['research_leadership.php','funding.php','doctoral_supervision.php']; ?>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle <?= in_array($current_page, $research_pages) ? 'active' : '' ?>" href="#" role="button" data-bs-toggle="dropdown">Research</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item <?= $current_page === 'research_leadership.php' ? 'active' : '' ?>" href="research_leadership.php">Research Leadership</a></li>
+                            <li><a class="dropdown-item <?= $current_page === 'funding.php' ? 'active' : '' ?>" href="funding.php">Funding</a></li>
+                            <li><a class="dropdown-item <?= $current_page === 'doctoral_supervision.php' ? 'active' : '' ?>" href="doctoral_supervision.php">Doctoral Supervision</a></li>
+                        </ul>
+                    </li>
+                    <!-- Engagement dropdown -->
+                    <?php $engage_pages = ['professional_associations.php','public_engagement.php','academic_leadership.php','enterprise_consultancy.php','global_impact.php']; ?>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle <?= in_array($current_page, $engage_pages) ? 'active' : '' ?>" href="#" role="button" data-bs-toggle="dropdown">Engagement</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item <?= $current_page === 'professional_associations.php' ? 'active' : '' ?>" href="professional_associations.php">Professional Associations</a></li>
+                            <li><a class="dropdown-item <?= $current_page === 'public_engagement.php' ? 'active' : '' ?>" href="public_engagement.php">Public Engagement</a></li>
+                            <li><a class="dropdown-item <?= $current_page === 'academic_leadership.php' ? 'active' : '' ?>" href="academic_leadership.php">Academic Leadership</a></li>
+                            <li><a class="dropdown-item <?= $current_page === 'enterprise_consultancy.php' ? 'active' : '' ?>" href="enterprise_consultancy.php">Enterprise &amp; Consultancy</a></li>
+                            <li><a class="dropdown-item <?= $current_page === 'global_impact.php' ? 'active' : '' ?>" href="global_impact.php">Global Impact</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?= $current_page === 'chapters.php' ? 'active' : '' ?>" href="chapters.php">Chapters</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link <?= $current_page === 'videos.php' ? 'active' : '' ?>" href="videos.php">Videos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link <?= $current_page === 'conferences.php' ? 'active' : '' ?>" href="conferences.php">Conferences</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link <?= $current_page === 'blog.php' ? 'active' : '' ?>" href="blog.php">Blog</a>
+                        <a class="nav-link <?= $current_page === 'search.php' ? 'active' : '' ?>" href="search.php">Search</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link <?= $current_page === 'contact.php' ? 'active' : '' ?>" href="contact.php">Contact</a>

@@ -17,13 +17,27 @@ define('BASE_URL', 'http://' . SERVER_HOST . ':' . SERVER_PORT);
 $pages = [
     'index.php',
     'about.php',
+    'education.php',
+    'academic_career.php',
+    'awards.php',
     'books.php',
     'articles.php',
     'chapters.php',
-    'videos.php',
+    'reviews.php',
+    'newspaper_articles.php',
     'conferences.php',
+    'research_leadership.php',
+    'funding.php',
+    'doctoral_supervision.php',
+    'professional_associations.php',
+    'public_engagement.php',
+    'academic_leadership.php',
+    'enterprise_consultancy.php',
+    'global_impact.php',
+    'search.php',
+    'contact.php',
+    'videos.php',
     'blog.php',
-    'contact.php'
 ];
 
 // Ensure output directory exists

@@ -1,0 +1,140 @@
+{
+  "items": [
+    {
+      "id": "fund_001",
+      "year": "2016",
+      "title": "Visiting Professorship – Keio University, Tokyo",
+      "amount": "£4,000",
+      "funder": "Keio University, Tokyo",
+      "notes": "For delivering a series of lectures on Ecological Marxism, August 2016."
+    },
+    {
+      "id": "fund_002",
+      "year": "2016",
+      "title": "Visiting Lectureships – Colby College, Maine",
+      "amount": "$1,500",
+      "funder": "Colby College, Maine",
+      "notes": "For lectures on BRICS economies, April 2016."
+    },
+    {
+      "id": "fund_003",
+      "year": "2016",
+      "title": "Valedictory Address – Columbia University",
+      "amount": "$2,000",
+      "funder": "Columbia University, New York",
+      "notes": "To deliver valedictory address on Economic Thought of B.R. Ambedkar."
+    },
+    {
+      "id": "fund_004",
+      "year": "2014",
+      "title": "Fully Funded US Lecture Tour",
+      "amount": "~£6,000",
+      "funder": "Multiple US universities",
+      "notes": "Lecture tour of Hofstra University, Colby College, University of California Santa Cruz, Columbia University, November 2014."
+    },
+    {
+      "id": "fund_005",
+      "year": "2014",
+      "title": "Special Annual Lecture – Brazilian Society of Political Economy",
+      "amount": "Fully funded",
+      "funder": "Brazilian Society of Political Economy",
+      "notes": "Special Annual Lecture at Annual Conference."
+    },
+    {
+      "id": "fund_006",
+      "year": "2014",
+      "title": "Visiting Lecture – Punjabi University, Patiala",
+      "amount": "Fully funded",
+      "funder": "CDEIS, Punjabi University, Patiala",
+      "notes": "Invited to deliver lectures at Centre for Development Economics and Innovation Studies."
+    },
+    {
+      "id": "fund_007",
+      "year": "2014",
+      "title": "Research Development – Association of Asian Studies",
+      "amount": "$1,000",
+      "funder": "US-based Association of Asian Studies",
+      "notes": "To develop research further on Punjabi identity."
+    },
+    {
+      "id": "fund_008",
+      "year": "2013",
+      "title": "Visiting Professorship – Moscow State University",
+      "amount": "Fully funded",
+      "funder": "Moscow State University",
+      "notes": "Visiting Professorship, September–October 2013. Estimated value ~£12,000."
+    },
+    {
+      "id": "fund_009",
+      "year": "2012",
+      "title": "Rosa Luxemburg Foundation Annual Lecture – Berlin",
+      "amount": "Fully funded",
+      "funder": "Rosa Luxemburg Foundation, Berlin",
+      "notes": "Annual Plurality of Perception Lecture."
+    },
+    {
+      "id": "fund_010",
+      "year": "2012",
+      "title": "Lecture Tour on Human Rights and Development",
+      "amount": "Fully funded",
+      "funder": "BR Ambedkar University and other institutions",
+      "notes": "March–April 2012, jointly funded by BR Ambedkar University and partners."
+    },
+    {
+      "id": "fund_011",
+      "year": "2011",
+      "title": "Lecture Tour – South Korea",
+      "amount": "Fully funded",
+      "funder": "Corea International Forum",
+      "notes": "Lecture tour on the current global economic crisis."
+    },
+    {
+      "id": "fund_012",
+      "year": "2011",
+      "title": "Special Lecture – Chungnam Development Institute, Korea",
+      "amount": "Fully funded",
+      "funder": "Chungnam Development Institute, South Korea",
+      "notes": "On Regional Development in National and International Context."
+    },
+    {
+      "id": "fund_013",
+      "year": "2011",
+      "title": "Presentation – Ecuador Presidential Commission",
+      "amount": "Fully funded",
+      "funder": "Ecuador Presidential Commission on Alternative Financial Architecture",
+      "notes": "International Conference on Alternative Financial Architecture, Quito."
+    },
+    {
+      "id": "fund_014",
+      "year": "2009",
+      "title": "Conference Paper – Rosa Luxemburg Foundation, Johannesburg",
+      "amount": "£1,000",
+      "funder": "Rosa Luxemburg Foundation, Germany",
+      "notes": ""
+    },
+    {
+      "id": "fund_015",
+      "year": "2009",
+      "title": "Visiting Professorship – Jawaharlal Nehru University",
+      "amount": "Fully funded",
+      "funder": "Jawaharlal Nehru University, India",
+      "notes": "January–September 2009. Estimated value ~£10,000."
+    },
+    {
+      "id": "fund_016",
+      "year": "2014",
+      "title": "CRF2 Internal Research Grant",
+      "amount": "£18,979",
+      "funder": "Oxford Brookes University (Internal)",
+      "notes": "Won May 2014 for a project on the impact of India-China rivalry on Nepal's development."
+    },
+    {
+      "id": "fund_017",
+      "year": "2012",
+      "title": "Internal Research Grant (FoB)",
+      "amount": "£5,000",
+      "funder": "Oxford Brookes University (Internal)",
+      "notes": "For project on Centre-Punjab Financial Relations Under Two Policy Regimes. July 2012–December 2013."
+    }
+  ]
+}

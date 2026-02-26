@@ -1,0 +1,113 @@
+{
+  "items": [
+    {
+      "id": "aw_001",
+      "year": "2015",
+      "title": "Distinguished Achievement Award in Political Economy of the Twenty-First Century",
+      "body": "World Association of Political Economy",
+      "category": "honorary"
+    },
+    {
+      "id": "aw_002",
+      "year": "2014",
+      "title": "Mahatma Gandhi Pravasi Samman (Mahatma Gandhi Award to Overseas Indians)",
+      "body": "Non-resident Indians Welfare Society (London)",
+      "category": "honorary"
+    },
+    {
+      "id": "aw_003",
+      "year": "2014",
+      "title": "Robe of Honour",
+      "body": "Australian Sikh Association",
+      "category": "honorary",
+      "notes": "Presented by the President of the Australian Sikh Association for distinguished contributions to Punjab studies."
+    },
+    {
+      "id": "aw_004",
+      "year": "2013",
+      "title": "Medal of Honour",
+      "body": "Simon Kuznets Institute for Self-Organisation and Development, and the Vernadsky Foundation",
+      "category": "honorary"
+    },
+    {
+      "id": "aw_005",
+      "year": "2010",
+      "title": "Distinguished Son of Punjab Award",
+      "body": "Dulla Bhatti Society (Indo-Pakistan Cultural Society)",
+      "category": "honorary",
+      "notes": "Amritsar, India."
+    },
+    {
+      "id": "aw_006",
+      "year": "2010",
+      "title": "Distinguished Scholar of Punjab and Development Studies Award",
+      "body": "Baba Farid Group of Institutions, Bathinda, Punjab",
+      "category": "honorary"
+    },
+    {
+      "id": "aw_007",
+      "year": "2009",
+      "title": "Robe of Honour",
+      "body": "Environmentalist Baba Seechewal (one of the top ten global Heroes of the Environment, Time Magazine)",
+      "category": "honorary"
+    },
+    {
+      "id": "aw_008",
+      "year": "2009",
+      "title": "Robe of Honour",
+      "body": "Baba Sewa Singh (recipient of Padam Shri)",
+      "category": "honorary"
+    },
+    {
+      "id": "aw_009",
+      "year": "1991",
+      "title": "Oxford Travel Bursary",
+      "body": "Oriel College, University of Oxford",
+      "category": "scholarship",
+      "notes": "For India study."
+    },
+    {
+      "id": "aw_010",
+      "year": "1988",
+      "title": "Edward Boyle/Charles Wallace Scholarship",
+      "body": "University of Oxford",
+      "category": "scholarship"
+    },
+    {
+      "id": "aw_011",
+      "year": "1972",
+      "title": "Junior Research Fellowship",
+      "body": "University Grants Commission, Jawaharlal Nehru University, Delhi",
+      "category": "scholarship"
+    },
+    {
+      "id": "aw_012",
+      "year": "2016",
+      "title": "Director/Trustee",
+      "body": "Sixth River Trust, Ironbridge, Shropshire",
+      "category": "recognition"
+    },
+    {
+      "id": "aw_013",
+      "year": "2012",
+      "title": "Federalism Advisor",
+      "body": "Government of Punjab, India",
+      "category": "recognition",
+      "notes": "Appointed 19 November 2012."
+    },
+    {
+      "id": "aw_014",
+      "year": "2011",
+      "title": "Member of Advisory Board",
+      "body": "Green House Think Tank, UK",
+      "category": "recognition"
+    },
+    {
+      "id": "aw_015",
+      "year": "2004–2009",
+      "title": "Economic Advisor",
+      "body": "House of Commons All Party Parliamentary Committee on Punjabis in Britain",
+      "category": "recognition"
+    }
+  ]
+}
