@@ -135,6 +135,86 @@
       "amount": "£5,000",
       "funder": "Oxford Brookes University (Internal)",
       "notes": "For project on Centre-Punjab Financial Relations Under Two Policy Regimes. July 2012–December 2013."
+    },
+    {
+      "id": "fund_018",
+      "year": "2015",
+      "title": "Research Development Grant – Association of Asian Studies",
+      "amount": "$1,000",
+      "funder": "US-based Association of Asian Studies",
+      "notes": "To develop research on Punjabi identity and present at the Association's annual conference in Taipei, June 2015."
+    },
+    {
+      "id": "fund_019",
+      "year": "2013",
+      "title": "Keynote Conference Grant – University of California, Santa Cruz",
+      "amount": "~£2,000",
+      "funder": "University of California, Santa Cruz",
+      "notes": "To deliver a keynote paper at an international conference organised by UCSC, March 29-30, 2013."
+    },
+    {
+      "id": "fund_020",
+      "year": "2011",
+      "title": "Invited Presentation – Ecuador Presidential Commission",
+      "amount": "~£1,000",
+      "funder": "Ecuador Presidential Commission on Alternative Financial Architecture",
+      "notes": "For invited presentation at international workshop in Quito, Ecuador, May 2011."
+    },
+    {
+      "id": "fund_021",
+      "year": "2009",
+      "title": "Conference Paper – World Congress IUAES, Kunming, China",
+      "amount": "£600",
+      "funder": "World Congress of the International Union of Anthropological and Ethnological Sciences",
+      "notes": "To organise a panel and present a paper at Kunming, China in 2009."
+    },
+    {
+      "id": "fund_022",
+      "year": "2009",
+      "title": "Conference Paper – Council for Social Development, Delhi",
+      "amount": "£250",
+      "funder": "Council for Social Development, India",
+      "notes": "For a paper at Delhi, India in 2009."
+    },
+    {
+      "id": "fund_023",
+      "year": "2009",
+      "title": "Consultative Workshop – Nepal (South Asia Forum for Human Rights)",
+      "amount": "£700",
+      "funder": "South Asia Forum for Human Rights and Canada's International Council for Development Research",
+      "notes": "For a consultative workshop in Nepal in 2009."
+    },
+    {
+      "id": "fund_024",
+      "year": "2008",
+      "title": "Conference Paper – International Forum for Globalisation, San Francisco",
+      "amount": "£1,200",
+      "funder": "International Forum for Globalisation (USA)",
+      "notes": "To present a paper in San Francisco in 2008."
+    },
+    {
+      "id": "fund_025",
+      "year": "2008",
+      "title": "Conference – South Asia Forum for Human Rights, Chandigarh",
+      "amount": "£900",
+      "funder": "South Asia Forum for Human Rights and Canada's International Council for Development Research",
+      "notes": "For a conference in Chandigarh, India in 2008."
+    },
+    {
+      "id": "fund_026",
+      "year": "2008",
+      "title": "Special Invited Lecture – Institute of Development and Communication, Chandigarh",
+      "amount": "£400",
+      "funder": "Institute of Development and Communication, Chandigarh, India",
+      "notes": "For a specially invited lecture in Chandigarh, India in 2008."
+    },
+    {
+      "id": "fund_027",
+      "year": "2009",
+      "title": "Shariah and Legal Globalisation – Internal Research Grant (co-bidder)",
+      "amount": "£17,100",
+      "funder": "Central University Research Fund, Oxford Brookes University",
+      "notes": "Co-bidder with Prof Peter Edge for project 'Shariah and Legal Globalisation' (2009-2010)."
     }
   ]
 }

@@ -61,7 +61,7 @@
       "id": "ds_c002",
       "student": "Nadia Singh",
       "thesis": "Bioenergy, Capitalism and Energy Needs of Developing Countries: A Case Study of Bioenergy Projects in Punjab, India",
-      "notes": "Started September 2013."
+      "notes": "Started September 2014."
     },
     {
       "id": "ds_c003",
@@ -80,7 +80,21 @@
       "student": "Usman Alkali",
       "thesis": "A Paradigm Shift from Resource-Based Economy to Knowledge Based Economy: The role of University-Industry Interaction in Nigeria",
       "notes": "Started January 2015."
+    },
+    {
+      "id": "ds_c006",
+      "student": "Gita Sinha",
+      "thesis": "Political economy of mining and gender relations in India",
+      "notes": "Starting PhD programme from September/October 2016."
     }
   ],
-  "external_examination": "Has externally examined 10 PhD dissertations: one each in India and Ireland, three in the UK (Lancaster, Huddersfield and Coventry), one in the USA (Rutgers), one in Pakistan, and three in Nigeria. Also appointed external examiner for MPhil in Development Studies programme at University of Oxford from October 2016."
+  "external_examination": "Has externally examined 10 PhD dissertations: one each in India and Ireland, three in the UK (Lancaster, Huddersfield and Coventry), one in the USA (Rutgers), one in Pakistan, and three in Nigeria. Also appointed external examiner for MPhil in Development Studies programme at University of Oxford from October 2016.",
+  "submitted": [
+    {
+      "id": "ds_s001",
+      "student": "Kiran Karrouchi",
+      "thesis": "Reciprocal Effects of Climate Change and Poverty in the Development Process – a Case Study of Pakistan",
+      "notes": "Started September 2009. Submitted; examination fixed on October 7, 2016."
+    }
+  ]
 }

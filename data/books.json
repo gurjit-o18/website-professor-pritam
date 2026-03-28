@@ -55,7 +55,7 @@
           "url": "https://www.amazon.com/s?k=Punjabi+Identity+in+a+Global+Context+Pritam+Singh"
         }
       ],
-      "notes": "Reprint 2015. Co-edited pioneering volume addressing Punjabi identity in diaspora and multicultural contexts"
+      "notes": "Reprint 2015. Co-edited pioneering volume addressing Punjabi identity in diaspora and multicultural contexts Second edition published 2015 by Oxford University Press."
     },
     {
       "id": "b_004",
@@ -96,6 +96,26 @@
       "isbn": "N/A",
       "links": [],
       "notes": "Co-edited pioneering work on pedagogic research, exploring equal opportunities in teaching concerning curriculum, teaching methodologies and assessment"
+    },
+    {
+      "id": "b_007",
+      "title": "Globalisation and the Region: Explorations in Punjabi Identity",
+      "authors": "Pritam Singh and Shinder Singh Thandi (eds)",
+      "year": 1996,
+      "publisher": "Association of Punjab Studies (UK), Coventry",
+      "isbn": "",
+      "links": [],
+      "notes": "Equal contribution of the editors. A revised and updated version was published as 'Punjabi Identity in a Global Context' (Oxford University Press, 1999 and 2015)."
+    },
+    {
+      "id": "b_008",
+      "title": "Women and Society: Problems and Prospects",
+      "authors": "Pritam Singh and K. Shirali (eds)",
+      "year": 1982,
+      "publisher": "Chandigarh",
+      "isbn": "",
+      "links": [],
+      "notes": "Equal contribution of the editors."
     }
   ]
 }
