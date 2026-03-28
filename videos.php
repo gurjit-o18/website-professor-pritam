@@ -8,9 +8,13 @@ $videos = $data['items'];
 include 'header.php';
 ?>
 
-<main class="container my-5">
-    <h1 class="section-title">Videos & Presentations</h1>
+<section class="page-header">
+    <div class="container">
+        <h1><i class="fas fa-video me-3"></i>Videos &amp; Presentations</h1>
+    </div>
+</section>
 
+<main class="container my-5">
     <?php if (empty($videos)): ?>
         <div class="alert alert-info">No videos available at the moment.</div>
     <?php else: ?>
@@ -19,10 +23,10 @@ include 'header.php';
             <h3><?= h($video['title']) ?></h3>
             
             <div class="meta-info mb-2">
-                <strong>Platform:</strong> <?= h($video['platform']) ?><br>
-                <strong>Channel:</strong> <?= h($video['channel']) ?><br>
-                <strong>Duration:</strong> <?= h($video['duration']) ?><br>
-                <strong>Published:</strong> <?= h($video['published_date']) ?>
+                <strong><i class="fas fa-play-circle me-1"></i>Platform:</strong> <?= h($video['platform']) ?><br>
+                <strong><i class="fas fa-tv me-1"></i>Channel:</strong> <?= h($video['channel']) ?><br>
+                <strong><i class="fas fa-clock me-1"></i>Duration:</strong> <?= h($video['duration']) ?><br>
+                <strong><i class="fas fa-calendar me-1"></i>Published:</strong> <?= h($video['published_date']) ?>
             </div>
 
             <?php if (!empty($video['notes'])): ?>
@@ -30,7 +34,7 @@ include 'header.php';
             <?php endif; ?>
 
             <?php if (!empty($video['url'])): ?>
-            <a href="<?= h($video['url']) ?>" class="btn btn-sm btn-primary" target="_blank">Watch Video</a>
+            <a href="<?= h($video['url']) ?>" class="btn btn-sm btn-primary" target="_blank"><i class="fas fa-play me-1"></i>Watch Video</a>
             <?php endif; ?>
         </div>
         <?php endforeach; ?>

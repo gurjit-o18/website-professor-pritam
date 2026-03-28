@@ -4,25 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professor Pritam Singh - Oxford Brookes University</title>
-    
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    
+
     <!-- Custom CSS -->
     <link href="assets/css/site.css" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Prof. Pritam Singh</a>
+            <a class="navbar-brand" href="index.html"><i class="fas fa-graduation-cap me-2"></i>Prof. Pritam Singh</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link " href="index.html">Home</a>
+                        <a class="nav-link " href="index.html"><i class="fas fa-home me-1"></i>Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="about.html">About</a>
@@ -31,47 +39,47 @@
                                         <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown">Profile</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item " href="education.html">Education</a></li>
-                            <li><a class="dropdown-item " href="academic_career.html">Academic Career</a></li>
-                            <li><a class="dropdown-item " href="awards.html">Awards &amp; Honors</a></li>
+                            <li><a class="dropdown-item " href="education.html"><i class="fas fa-graduation-cap me-2 text-muted"></i>Education</a></li>
+                            <li><a class="dropdown-item " href="academic_career.html"><i class="fas fa-briefcase me-2 text-muted"></i>Academic Career</a></li>
+                            <li><a class="dropdown-item " href="awards.html"><i class="fas fa-award me-2 text-muted"></i>Awards &amp; Honors</a></li>
                         </ul>
                     </li>
                     <!-- Publications dropdown -->
                                         <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown">Publications</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item " href="books.html">Books</a></li>
-                            <li><a class="dropdown-item " href="articles.html">Journal Articles</a></li>
-                            <li><a class="dropdown-item " href="chapters.html">Book Chapters</a></li>
-                            <li><a class="dropdown-item " href="reviews.html">Reviews</a></li>
-                            <li><a class="dropdown-item " href="newspaper_articles.html">Newspaper Articles</a></li>
+                            <li><a class="dropdown-item " href="books.html"><i class="fas fa-book me-2 text-muted"></i>Books</a></li>
+                            <li><a class="dropdown-item " href="articles.html"><i class="fas fa-file-alt me-2 text-muted"></i>Journal Articles</a></li>
+                            <li><a class="dropdown-item " href="chapters.html"><i class="fas fa-bookmark me-2 text-muted"></i>Book Chapters</a></li>
+                            <li><a class="dropdown-item " href="reviews.html"><i class="fas fa-star me-2 text-muted"></i>Reviews</a></li>
+                            <li><a class="dropdown-item " href="newspaper_articles.html"><i class="fas fa-newspaper me-2 text-muted"></i>Newspaper Articles</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="conferences.html">Conferences &amp; Talks</a>
+                        <a class="nav-link active" href="conferences.html">Conferences</a>
                     </li>
                     <!-- Research dropdown -->
                                         <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown">Research</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item " href="research_leadership.html">Research Leadership</a></li>
-                            <li><a class="dropdown-item " href="funding.html">Funding</a></li>
-                            <li><a class="dropdown-item " href="doctoral_supervision.html">Doctoral Supervision</a></li>
+                            <li><a class="dropdown-item " href="research_leadership.html"><i class="fas fa-flask me-2 text-muted"></i>Research Leadership</a></li>
+                            <li><a class="dropdown-item " href="funding.html"><i class="fas fa-hand-holding-usd me-2 text-muted"></i>Funding</a></li>
+                            <li><a class="dropdown-item " href="doctoral_supervision.html"><i class="fas fa-user-graduate me-2 text-muted"></i>Doctoral Supervision</a></li>
                         </ul>
                     </li>
                     <!-- Engagement dropdown -->
                                         <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown">Engagement</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item " href="professional_associations.html">Professional Associations</a></li>
-                            <li><a class="dropdown-item " href="public_engagement.html">Public Engagement</a></li>
-                            <li><a class="dropdown-item " href="academic_leadership.html">Academic Leadership</a></li>
-                            <li><a class="dropdown-item " href="enterprise_consultancy.html">Enterprise &amp; Consultancy</a></li>
-                            <li><a class="dropdown-item " href="global_impact.html">Global Impact</a></li>
+                            <li><a class="dropdown-item " href="professional_associations.html"><i class="fas fa-users me-2 text-muted"></i>Professional Associations</a></li>
+                            <li><a class="dropdown-item " href="public_engagement.html"><i class="fas fa-bullhorn me-2 text-muted"></i>Public Engagement</a></li>
+                            <li><a class="dropdown-item " href="academic_leadership.html"><i class="fas fa-chalkboard-teacher me-2 text-muted"></i>Academic Leadership</a></li>
+                            <li><a class="dropdown-item " href="enterprise_consultancy.html"><i class="fas fa-handshake me-2 text-muted"></i>Enterprise &amp; Consultancy</a></li>
+                            <li><a class="dropdown-item " href="global_impact.html"><i class="fas fa-globe me-2 text-muted"></i>Global Impact</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="search.html">Search</a>
+                        <a class="nav-link " href="search.html"><i class="fas fa-search me-1"></i>Search</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="contact.html">Contact</a>
@@ -84,240 +92,244 @@
         </div>
     </nav>
 
-<main class="container my-5">
-    <h1 class="section-title">Conference Presentations</h1>
+<section class="page-header">
+    <div class="container">
+        <h1><i class="fas fa-microphone-alt me-3"></i>Conference Presentations</h1>
+    </div>
+</section>
 
-                    <h3 class="mt-4 mb-3">2014</h3>
+<main class="container my-5">
+                    <h3 class="mt-4 mb-3"><i class="fas fa-calendar-alt me-2 text-primary"></i>2014</h3>
                 <div class="article-item">
             <h5>How Centre-State Relations Shape Punjab&#039;s Development Pattern</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> International Conference on Rejuvenation of Punjab Economy<br>
-                <strong>Location:</strong> Patiala, India<br>
-                <strong>Date:</strong> March 2014            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> International Conference on Rejuvenation of Punjab Economy<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> Patiala, India<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> March 2014            </div>
 
                     </div>
                 <div class="article-item">
             <h5>Changing Social Values and Political Culture in Punjab: with special emphasis on the period since 1966</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> (Re-)Building Punjab: Political Economy, Society and Values<br>
-                <strong>Location:</strong> Santa Cruz<br>
-                <strong>Date:</strong> March 2014            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> (Re-)Building Punjab: Political Economy, Society and Values<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> Santa Cruz<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> March 2014            </div>
 
                     </div>
-                        <h3 class="mt-4 mb-3">2013</h3>
+                        <h3 class="mt-4 mb-3"><i class="fas fa-calendar-alt me-2 text-primary"></i>2013</h3>
                 <div class="article-item">
             <h5>Political economy of centralisation and decentralisation in India</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> Moscow Economic History Group<br>
-                <strong>Location:</strong> Moscow<br>
-                <strong>Date:</strong> October 2013            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> Moscow Economic History Group<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> Moscow<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> October 2013            </div>
 
                     </div>
                 <div class="article-item">
             <h5>Spatial shift in the global economy and its consequences for global sustainability: understanding the rise of BRICS economies</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> International Symposium on Sustainable Development<br>
-                <strong>Location:</strong> St Petersburg<br>
-                <strong>Date:</strong> September 2013            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> International Symposium on Sustainable Development<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> St Petersburg<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> September 2013            </div>
 
                     </div>
                 <div class="article-item">
             <h5>An eco-socialist reading of the rising importance of BRICS in the global capitalist economy</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> 8th Forum of the World Association of Political Economy<br>
-                <strong>Location:</strong> Florianopolis, Brazil<br>
-                <strong>Date:</strong> May 2013            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> 8th Forum of the World Association of Political Economy<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> Florianopolis, Brazil<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> May 2013            </div>
 
                     </div>
                 <div class="article-item">
             <h5>An Eco-socialist perspective on the global crisis</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> New Cultures of the Left conference organised by Historical Materialism<br>
-                <strong>Location:</strong> Delhi<br>
-                <strong>Date:</strong> April 2013            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> New Cultures of the Left conference organised by Historical Materialism<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> Delhi<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> April 2013            </div>
 
                     </div>
-                        <h3 class="mt-4 mb-3">2012</h3>
+                        <h3 class="mt-4 mb-3"><i class="fas fa-calendar-alt me-2 text-primary"></i>2012</h3>
                 <div class="article-item">
             <h5>Class, nation and religion: changing nature of Akali Dal politics in Punjab, India</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> 22nd European Conference on South Asian Studies<br>
-                <strong>Location:</strong> Lisbon<br>
-                <strong>Date:</strong> July 2012            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> 22nd European Conference on South Asian Studies<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> Lisbon<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> July 2012            </div>
 
                     </div>
                 <div class="article-item">
             <h5>Alternative Theoretical Perspectives on the Spatial Shift in the Global Economy and Their Sustainability Implications</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> Joint conference of the Association of Heterodox Economics, International Initiative on Political Economy, French Association of Political Economy and the World Association of Political Economy<br>
-                <strong>Location:</strong> University of Sorbonne, Paris<br>
-                <strong>Date:</strong> July 2012            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> Joint conference of the Association of Heterodox Economics, International Initiative on Political Economy, French Association of Political Economy and the World Association of Political Economy<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> University of Sorbonne, Paris<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> July 2012            </div>
 
                     </div>
                 <div class="article-item">
             <h5>Federalism and the Indian mode of accumulation: probing the role of state and nation</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> 26th Annual Conference of the British Association of South Asian Studies<br>
-                <strong>Location:</strong> London<br>
-                <strong>Date:</strong> April 2012            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> 26th Annual Conference of the British Association of South Asian Studies<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> London<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> April 2012            </div>
 
                     </div>
-                        <h3 class="mt-4 mb-3">2011</h3>
+                        <h3 class="mt-4 mb-3"><i class="fas fa-calendar-alt me-2 text-primary"></i>2011</h3>
                 <div class="article-item">
             <h5>Federalism and the Indian mode of accumulation: probing the role of state and nation</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> Eighth Annual Conference of Historical Materialism on &#039;Spaces of Capital, Moments of Struggle&#039;<br>
-                <strong>Location:</strong> London<br>
-                <strong>Date:</strong> November 2011            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> Eighth Annual Conference of Historical Materialism on &#039;Spaces of Capital, Moments of Struggle&#039;<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> London<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> November 2011            </div>
 
                     </div>
                 <div class="article-item">
             <h5>Instrumentalist versus intrinsic worth conception of human rights: the context of India and Punjab</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> Biannual Conference of Punjab Research Group (UK)<br>
-                <strong>Location:</strong> Oxford<br>
-                <strong>Date:</strong> October 2011            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> Biannual Conference of Punjab Research Group (UK)<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> Oxford<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> October 2011            </div>
 
                     </div>
                 <div class="article-item">
             <h5>The Spatial Shift in the Global Economy: Sustainability Implications</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> Oxford Brookes Business School - Burgundy Business School Joint Research Conference<br>
-                <strong>Location:</strong> Dijon<br>
-                <strong>Date:</strong> May 2011            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> Oxford Brookes Business School - Burgundy Business School Joint Research Conference<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> Dijon<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> May 2011            </div>
 
                     </div>
                 <div class="article-item">
             <h5>Political economy of religion and nationalism in the Sikhs&#039; engagement with different forms of centralised state power</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> 25th Conference of the British Association of South Asian Studies<br>
-                <strong>Location:</strong> Southampton<br>
-                <strong>Date:</strong> April 2011            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> 25th Conference of the British Association of South Asian Studies<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> Southampton<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> April 2011            </div>
 
                     </div>
                 <div class="article-item">
             <h5>Alternative economic perspectives on the sustainability implications of the global economic crisis</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> Left Forum Annual Conference<br>
-                <strong>Location:</strong> New York<br>
-                <strong>Date:</strong> March 2011            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> Left Forum Annual Conference<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> New York<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> March 2011            </div>
 
                     </div>
                 <div class="article-item">
             <h5>Defying development that degrades the environment: applying the Sikh vision of living with nature</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> ESRC Seminar: Environmental Sustainability in Non-Western Contexts<br>
-                <strong>Location:</strong> Salford<br>
-                <strong>Date:</strong> March 2011            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> ESRC Seminar: Environmental Sustainability in Non-Western Contexts<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> Salford<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> March 2011            </div>
 
                     </div>
-                        <h3 class="mt-4 mb-3">2010</h3>
+                        <h3 class="mt-4 mb-3"><i class="fas fa-calendar-alt me-2 text-primary"></i>2010</h3>
                 <div class="article-item">
             <h5>Socialism in India: Theoretical and political perspectives</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> Invited lecture, Nanterre University<br>
-                <strong>Location:</strong> Paris<br>
-                <strong>Date:</strong> September 2010            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> Invited lecture, Nanterre University<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> Paris<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> September 2010            </div>
 
                     </div>
                 <div class="article-item">
             <h5>Federalism and the Indian mode of accumulation: Probing the role of the state and nation</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> First International Conference on Political Economy<br>
-                <strong>Location:</strong> Rethymnon, Crete<br>
-                <strong>Date:</strong> September 2010            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> First International Conference on Political Economy<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> Rethymnon, Crete<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> September 2010            </div>
 
                     </div>
                 <div class="article-item">
             <h5>Shariah and the Euro-centricity of Development Paradigms</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> Conference on Shariah and Human Rights<br>
-                <strong>Location:</strong> Oxford Brookes<br>
-                <strong>Date:</strong> June 2010            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> Conference on Shariah and Human Rights<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> Oxford Brookes<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> June 2010            </div>
 
                     </div>
                 <div class="article-item">
             <h5>Teaching methodologies: some lessons from the comparative experience of teaching in India and the West</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> International conference on Teaching Methodologies, Baba Farid Group of Institutes<br>
-                <strong>Location:</strong> Bathinda, India<br>
-                <strong>Date:</strong> January 2010            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> International conference on Teaching Methodologies, Baba Farid Group of Institutes<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> Bathinda, India<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> January 2010            </div>
 
                         <p>Key note address at an international conference on Teaching Methodologies in India and Abroad</p>
                     </div>
-                        <h3 class="mt-4 mb-3">2009</h3>
+                        <h3 class="mt-4 mb-3"><i class="fas fa-calendar-alt me-2 text-primary"></i>2009</h3>
                 <div class="article-item">
             <h5>Food crisis as a part of global economic crisis — China-India competition for African land and resources</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> International conference on Global Crisis and Africa organised by Rosa Luxemburg Foundation<br>
-                <strong>Location:</strong> Johannesburg, South Africa<br>
-                <strong>Date:</strong> November 2009            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> International conference on Global Crisis and Africa organised by Rosa Luxemburg Foundation<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> Johannesburg, South Africa<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> November 2009            </div>
 
                     </div>
                 <div class="article-item">
             <h5>Political Economy of the Cycles of Federal Conflicts in India</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> 16th World Congress of the International Union of Anthropological and Ethnological Sciences<br>
-                <strong>Location:</strong> Kunming, China<br>
-                <strong>Date:</strong> July 2009            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> 16th World Congress of the International Union of Anthropological and Ethnological Sciences<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> Kunming, China<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> July 2009            </div>
 
                     </div>
                 <div class="article-item">
             <h5>Development as a common issue in ethno-nationalist conflicts</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> International Workshop on &#039;A Human Rights and Peace Audit of Partitions as a Method of Conflict Resolution&#039;<br>
-                <strong>Location:</strong> Nepal<br>
-                <strong>Date:</strong> March 2009            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> International Workshop on &#039;A Human Rights and Peace Audit of Partitions as a Method of Conflict Resolution&#039;<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> Nepal<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> March 2009            </div>
 
                     </div>
                 <div class="article-item">
             <h5>In defence of organic farming</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> Inaugural Conference of the Institute of Development and Communication<br>
-                <strong>Location:</strong> Chandigarh, India<br>
-                <strong>Date:</strong> January 2009            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> Inaugural Conference of the Institute of Development and Communication<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> Chandigarh, India<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> January 2009            </div>
 
                     </div>
-                        <h3 class="mt-4 mb-3">2008</h3>
+                        <h3 class="mt-4 mb-3"><i class="fas fa-calendar-alt me-2 text-primary"></i>2008</h3>
                 <div class="article-item">
             <h5>Interrogating Marxian, Neo-classical and Green perspectives on the contradictory implications of Third World/Asian development</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> International Conference on Sustainable Development, Punjabi University<br>
-                <strong>Location:</strong> Patiala, India<br>
-                <strong>Date:</strong> November 2008            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> International Conference on Sustainable Development, Punjabi University<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> Patiala, India<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> November 2008            </div>
 
                     </div>
                 <div class="article-item">
             <h5>Intrinsic worth versus instrumentalist conception of human rights</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> Conference on &#039;Understanding impunity: failures and possibilities of rights to truth, justice and reparation&#039;<br>
-                <strong>Location:</strong> Chandigarh, India<br>
-                <strong>Date:</strong> October 2008            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> Conference on &#039;Understanding impunity: failures and possibilities of rights to truth, justice and reparation&#039;<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> Chandigarh, India<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> October 2008            </div>
 
                         <p>Jointly organised by the South Asia Forum for Human Rights and the International Council for Development Research, Canada</p>
                     </div>
@@ -325,122 +337,183 @@
             <h5>Indian capitalism in a global context</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> Conference on &#039;Is Capitalism soon over&#039; at the International Forum on Globalisation<br>
-                <strong>Location:</strong> San Francisco, USA<br>
-                <strong>Date:</strong> October 2008            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> Conference on &#039;Is Capitalism soon over&#039; at the International Forum on Globalisation<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> San Francisco, USA<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> October 2008            </div>
 
                     </div>
                 <div class="article-item">
             <h5>Federalism, policy regimes and regional development: An exploratory study of Punjab and Bihar</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> 20th European Conference on Modern South Asian Studies<br>
-                <strong>Location:</strong> University of Manchester<br>
-                <strong>Date:</strong> July 2008            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> 20th European Conference on Modern South Asian Studies<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> University of Manchester<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> July 2008            </div>
 
                     </div>
                 <div class="article-item">
             <h5>Reading Guru Granth Sahib: some observations</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> Bi-annual Conference of the Association of Punjab Studies<br>
-                <strong>Location:</strong> Coventry<br>
-                <strong>Date:</strong> June 2008            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> Bi-annual Conference of the Association of Punjab Studies<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> Coventry<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> June 2008            </div>
 
                     </div>
                 <div class="article-item">
             <h5>Will globalisation strengthen or weaken centralisation in India?</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> British Association of South Asian Studies Annual Conference<br>
-                <strong>Location:</strong> University of Leicester<br>
-                <strong>Date:</strong> March 2008            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> British Association of South Asian Studies Annual Conference<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> University of Leicester<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> March 2008            </div>
 
                     </div>
-                        <h3 class="mt-4 mb-3">2007</h3>
+                        <h3 class="mt-4 mb-3"><i class="fas fa-calendar-alt me-2 text-primary"></i>2007</h3>
                 <div class="article-item">
             <h5>Gandhi vs Bhagat Singh: Two contesting discourses during India&#039;s freedom struggle</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> Bi-annual Conference of the Punjab Research Group<br>
-                <strong>Location:</strong> University of Manchester<br>
-                <strong>Date:</strong> October 2007            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> Bi-annual Conference of the Punjab Research Group<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> University of Manchester<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> October 2007            </div>
 
                     </div>
                 <div class="article-item">
             <h5>Political economy of the conflict between centralisation and decentralisation in India before and after 1991</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> Annual workshop on Post-Exotic India: A New Narrative in Making (Invited paper)<br>
-                <strong>Location:</strong> Roskilde University, Denmark<br>
-                <strong>Date:</strong> September 2007            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> Annual workshop on Post-Exotic India: A New Narrative in Making (Invited paper)<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> Roskilde University, Denmark<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> September 2007            </div>
 
                     </div>
                 <div class="article-item">
             <h5>Competing nationalisms in the contestation over Sikh role in 1857</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> Mutiny on the Margins International Conference<br>
-                <strong>Location:</strong> University of Edinburgh<br>
-                <strong>Date:</strong> July 2007            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> Mutiny on the Margins International Conference<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> University of Edinburgh<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> July 2007            </div>
 
                     </div>
                 <div class="article-item">
             <h5>Imperialism, uneven development and sustainability</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> Conference of the Association of Heterodox Economics<br>
-                <strong>Location:</strong> Bristol<br>
-                <strong>Date:</strong> July 2007            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> Conference of the Association of Heterodox Economics<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> Bristol<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> July 2007            </div>
 
                     </div>
-                        <h3 class="mt-4 mb-3">2002</h3>
+                        <h3 class="mt-4 mb-3"><i class="fas fa-calendar-alt me-2 text-primary"></i>2002</h3>
                 <div class="article-item">
             <h5>Capital, state and nation in federalism: the context of India</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> UN Funded Venkatarangaiya Foundation<br>
-                <strong>Location:</strong> Hyderabad, India<br>
-                <strong>Date:</strong> April 2002            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> UN Funded Venkatarangaiya Foundation<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> Hyderabad, India<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> April 2002            </div>
 
                     </div>
                 <div class="article-item">
             <h5>Inter-State economic disparities and their implications for Indian federalism</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> Centre for Developing Societies<br>
-                <strong>Location:</strong> Delhi, India<br>
-                <strong>Date:</strong> April 2002            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> Centre for Developing Societies<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> Delhi, India<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> April 2002            </div>
 
                     </div>
-                        <h3 class="mt-4 mb-3">2001</h3>
+                        <h3 class="mt-4 mb-3"><i class="fas fa-calendar-alt me-2 text-primary"></i>2001</h3>
                 <div class="article-item">
             <h5>The political economy of human rights, with special reference to India and other parts of South Asia</h5>
 
             <div class="meta-info mb-2">
-                <strong>Event:</strong> Centre for Democracy Studies, Oxford Brookes University<br>
-                <strong>Location:</strong> Oxford<br>
-                <strong>Date:</strong> December 2001            </div>
+                <strong><i class="fas fa-calendar-check me-1"></i>Event:</strong> Centre for Democracy Studies, Oxford Brookes University<br>
+                <strong><i class="fas fa-map-marker-alt me-1"></i>Location:</strong> Oxford<br>
+                <strong><i class="fas fa-clock me-1"></i>Date:</strong> December 2001            </div>
 
                     </div>
                     </main>
 
     <!-- Footer -->
-    <footer class="bg-dark text-white mt-5 py-4">
+    <footer class="bg-dark text-white py-5">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h5>Professor Pritam Singh</h5>
-                    <p>Emeritus Professor of Economics<br>Oxford Brookes University</p>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <h5><i class="fas fa-graduation-cap me-2"></i>Professor Pritam Singh</h5>
+                    <p class="mb-1">Emeritus Professor of Economics</p>
+                    <p class="text-white-50">Oxford Brookes University, Oxford, UK</p>
+                    <div class="d-flex gap-3 mt-3">
+                                                <a href="https://scholar.google.com/citations?user=nzRKrzoAAAAJ&amp;hl=en" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap fa-lg"></i></a>
+                                                                        <a href="https://oxfordbrookes.academia.edu/PritamSingh" target="_blank" title="Academia.edu"><i class="fas fa-university fa-lg"></i></a>
+                                                                        <a href="https://www.brookes.ac.uk/profiles/staff/pritam-singh" target="_blank" title="University Profile"><i class="fas fa-building-columns fa-lg"></i></a>
+                                            </div>
                 </div>
-                <div class="col-md-6 text-md-end">
-                    <p class="mb-0">&copy; 2026 Professor Pritam Singh. All rights reserved.</p>
+                <div class="col-lg-4 col-md-6">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2"><a href="about.html"><i class="fas fa-chevron-right me-1 small"></i>About</a></li>
+                        <li class="mb-2"><a href="books.html"><i class="fas fa-chevron-right me-1 small"></i>Books</a></li>
+                        <li class="mb-2"><a href="articles.html"><i class="fas fa-chevron-right me-1 small"></i>Articles</a></li>
+                        <li class="mb-2"><a href="conferences.html"><i class="fas fa-chevron-right me-1 small"></i>Conferences</a></li>
+                        <li class="mb-2"><a href="contact.html"><i class="fas fa-chevron-right me-1 small"></i>Contact</a></li>
+                    </ul>
                 </div>
+                <div class="col-lg-4 col-md-12">
+                    <h5>Contact</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2"><i class="fas fa-envelope me-2 text-white-50"></i>psingh@brookes.ac.uk</li>
+                        <li class="mb-2"><i class="fas fa-map-marker-alt me-2 text-white-50"></i>Oxford Brookes Business School</li>
+                        <li class="mb-2"><i class="fas fa-globe me-2 text-white-50"></i>Oxford, UK</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4 border-secondary">
+            <div class="text-center">
+                <p class="mb-0 text-white-50 small">&copy; 2026 Professor Pritam Singh. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Scroll-to-top & scroll animations -->
+    <script>
+    (function(){
+        var btn = document.getElementById('scrollTopBtn');
+        if (btn) {
+            window.addEventListener('scroll', function(){
+                btn.classList.toggle('visible', window.scrollY > 300);
+            });
+            btn.addEventListener('click', function(){
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        }
+        if ('IntersectionObserver' in window) {
+            var observer = new IntersectionObserver(function(entries){
+                entries.forEach(function(e){
+                    if (e.isIntersecting) {
+                        e.target.classList.add('animate-fade-in-up');
+                        observer.unobserve(e.target);
+                    }
+                });
+            }, { threshold: 0.08 });
+            document.querySelectorAll('.card, .book-item, .article-item, .video-item, .section-title, h2, h3').forEach(function(el){
+                if (!el.closest('.hero-section') && !el.closest('nav')) {
+                    el.style.opacity = '0';
+                    observer.observe(el);
+                }
+            });
+        }
+    })();
+    </script>
 </body>
 </html>

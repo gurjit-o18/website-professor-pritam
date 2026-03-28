@@ -4,25 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professor Pritam Singh - Oxford Brookes University</title>
-    
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    
+
     <!-- Custom CSS -->
     <link href="assets/css/site.css" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Prof. Pritam Singh</a>
+            <a class="navbar-brand" href="index.html"><i class="fas fa-graduation-cap me-2"></i>Prof. Pritam Singh</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link " href="index.html">Home</a>
+                        <a class="nav-link " href="index.html"><i class="fas fa-home me-1"></i>Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="about.html">About</a>
@@ -31,47 +39,47 @@
                                         <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown">Profile</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item " href="education.html">Education</a></li>
-                            <li><a class="dropdown-item " href="academic_career.html">Academic Career</a></li>
-                            <li><a class="dropdown-item " href="awards.html">Awards &amp; Honors</a></li>
+                            <li><a class="dropdown-item " href="education.html"><i class="fas fa-graduation-cap me-2 text-muted"></i>Education</a></li>
+                            <li><a class="dropdown-item " href="academic_career.html"><i class="fas fa-briefcase me-2 text-muted"></i>Academic Career</a></li>
+                            <li><a class="dropdown-item " href="awards.html"><i class="fas fa-award me-2 text-muted"></i>Awards &amp; Honors</a></li>
                         </ul>
                     </li>
                     <!-- Publications dropdown -->
                                         <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown">Publications</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item " href="books.html">Books</a></li>
-                            <li><a class="dropdown-item " href="articles.html">Journal Articles</a></li>
-                            <li><a class="dropdown-item " href="chapters.html">Book Chapters</a></li>
-                            <li><a class="dropdown-item " href="reviews.html">Reviews</a></li>
-                            <li><a class="dropdown-item " href="newspaper_articles.html">Newspaper Articles</a></li>
+                            <li><a class="dropdown-item " href="books.html"><i class="fas fa-book me-2 text-muted"></i>Books</a></li>
+                            <li><a class="dropdown-item " href="articles.html"><i class="fas fa-file-alt me-2 text-muted"></i>Journal Articles</a></li>
+                            <li><a class="dropdown-item " href="chapters.html"><i class="fas fa-bookmark me-2 text-muted"></i>Book Chapters</a></li>
+                            <li><a class="dropdown-item " href="reviews.html"><i class="fas fa-star me-2 text-muted"></i>Reviews</a></li>
+                            <li><a class="dropdown-item " href="newspaper_articles.html"><i class="fas fa-newspaper me-2 text-muted"></i>Newspaper Articles</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="conferences.html">Conferences &amp; Talks</a>
+                        <a class="nav-link " href="conferences.html">Conferences</a>
                     </li>
                     <!-- Research dropdown -->
                                         <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown">Research</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item " href="research_leadership.html">Research Leadership</a></li>
-                            <li><a class="dropdown-item " href="funding.html">Funding</a></li>
-                            <li><a class="dropdown-item " href="doctoral_supervision.html">Doctoral Supervision</a></li>
+                            <li><a class="dropdown-item " href="research_leadership.html"><i class="fas fa-flask me-2 text-muted"></i>Research Leadership</a></li>
+                            <li><a class="dropdown-item " href="funding.html"><i class="fas fa-hand-holding-usd me-2 text-muted"></i>Funding</a></li>
+                            <li><a class="dropdown-item " href="doctoral_supervision.html"><i class="fas fa-user-graduate me-2 text-muted"></i>Doctoral Supervision</a></li>
                         </ul>
                     </li>
                     <!-- Engagement dropdown -->
                                         <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">Engagement</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item " href="professional_associations.html">Professional Associations</a></li>
-                            <li><a class="dropdown-item active" href="public_engagement.html">Public Engagement</a></li>
-                            <li><a class="dropdown-item " href="academic_leadership.html">Academic Leadership</a></li>
-                            <li><a class="dropdown-item " href="enterprise_consultancy.html">Enterprise &amp; Consultancy</a></li>
-                            <li><a class="dropdown-item " href="global_impact.html">Global Impact</a></li>
+                            <li><a class="dropdown-item " href="professional_associations.html"><i class="fas fa-users me-2 text-muted"></i>Professional Associations</a></li>
+                            <li><a class="dropdown-item active" href="public_engagement.html"><i class="fas fa-bullhorn me-2 text-muted"></i>Public Engagement</a></li>
+                            <li><a class="dropdown-item " href="academic_leadership.html"><i class="fas fa-chalkboard-teacher me-2 text-muted"></i>Academic Leadership</a></li>
+                            <li><a class="dropdown-item " href="enterprise_consultancy.html"><i class="fas fa-handshake me-2 text-muted"></i>Enterprise &amp; Consultancy</a></li>
+                            <li><a class="dropdown-item " href="global_impact.html"><i class="fas fa-globe me-2 text-muted"></i>Global Impact</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="search.html">Search</a>
+                        <a class="nav-link " href="search.html"><i class="fas fa-search me-1"></i>Search</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="contact.html">Contact</a>
@@ -84,14 +92,18 @@
         </div>
     </nav>
 
-<main class="container my-5">
-    <h1 class="section-title">Public Engagement</h1>
+<section class="page-header">
+    <div class="container">
+        <h1><i class="fas fa-bullhorn me-3"></i>Public Engagement</h1>
+    </div>
+</section>
 
-        <h2 class="mt-4 mb-3">Media Appearances (Selected)</h2>
+<main class="container my-5">
+        <h2 class="mt-4 mb-3"><i class="fas fa-tv me-2 text-primary"></i>Media Appearances (Selected)</h2>
         <div class="card mb-2">
         <div class="card-body py-2">
             <div class="d-flex justify-content-between align-items-start">
-                <p class="mb-0">TV panel discussion on Hindu nationalism, Sky TV/Akal Channel, Birmingham</p>
+                <p class="mb-0"><i class="fas fa-microphone me-1 text-muted"></i>TV panel discussion on Hindu nationalism, Sky TV/Akal Channel, Birmingham</p>
                 <span class="badge bg-secondary ms-3">2016</span>
             </div>
         </div>
@@ -99,7 +111,7 @@
         <div class="card mb-2">
         <div class="card-body py-2">
             <div class="d-flex justify-content-between align-items-start">
-                <p class="mb-0">TV panel discussion on Left and Punjabi and Sikh politics, Sky TV/Akal Channel, Birmingham</p>
+                <p class="mb-0"><i class="fas fa-microphone me-1 text-muted"></i>TV panel discussion on Left and Punjabi and Sikh politics, Sky TV/Akal Channel, Birmingham</p>
                 <span class="badge bg-secondary ms-3">2016</span>
             </div>
         </div>
@@ -107,7 +119,7 @@
         <div class="card mb-2">
         <div class="card-body py-2">
             <div class="d-flex justify-content-between align-items-start">
-                <p class="mb-0">TV panel discussion on Religion and State in South Asia, Rawal TV, Brampton, Canada</p>
+                <p class="mb-0"><i class="fas fa-microphone me-1 text-muted"></i>TV panel discussion on Religion and State in South Asia, Rawal TV, Brampton, Canada</p>
                 <span class="badge bg-secondary ms-3">2015</span>
             </div>
         </div>
@@ -115,7 +127,7 @@
         <div class="card mb-2">
         <div class="card-body py-2">
             <div class="d-flex justify-content-between align-items-start">
-                <p class="mb-0">Interviewed by KRPI Radio, Ferndale, US on Eco-socialism</p>
+                <p class="mb-0"><i class="fas fa-microphone me-1 text-muted"></i>Interviewed by KRPI Radio, Ferndale, US on Eco-socialism</p>
                 <span class="badge bg-secondary ms-3">2015</span>
             </div>
         </div>
@@ -123,7 +135,7 @@
         <div class="card mb-2">
         <div class="card-body py-2">
             <div class="d-flex justify-content-between align-items-start">
-                <p class="mb-0">TV panel discussion on Operation Bluestar, Sky TV/Akal Channel, Birmingham</p>
+                <p class="mb-0"><i class="fas fa-microphone me-1 text-muted"></i>TV panel discussion on Operation Bluestar, Sky TV/Akal Channel, Birmingham</p>
                 <span class="badge bg-secondary ms-3">2015</span>
             </div>
         </div>
@@ -131,7 +143,7 @@
         <div class="card mb-2">
         <div class="card-body py-2">
             <div class="d-flex justify-content-between align-items-start">
-                <p class="mb-0">TV panel on &#039;The Indian budget 2014&#039;, MA TV Sky 729</p>
+                <p class="mb-0"><i class="fas fa-microphone me-1 text-muted"></i>TV panel on &#039;The Indian budget 2014&#039;, MA TV Sky 729</p>
                 <span class="badge bg-secondary ms-3">2014</span>
             </div>
         </div>
@@ -139,7 +151,7 @@
         <div class="card mb-2">
         <div class="card-body py-2">
             <div class="d-flex justify-content-between align-items-start">
-                <p class="mb-0">Interviewed on Radio Russia (Hindi section) on BRICS and Indo-Russian economic ties</p>
+                <p class="mb-0"><i class="fas fa-microphone me-1 text-muted"></i>Interviewed on Radio Russia (Hindi section) on BRICS and Indo-Russian economic ties</p>
                 <span class="badge bg-secondary ms-3">2013</span>
             </div>
         </div>
@@ -147,7 +159,7 @@
         <div class="card mb-2">
         <div class="card-body py-2">
             <div class="d-flex justify-content-between align-items-start">
-                <p class="mb-0">Panelist in Al Jazeera TV discussion on the current crisis in the global economy, Oxford Union</p>
+                <p class="mb-0"><i class="fas fa-microphone me-1 text-muted"></i>Panelist in Al Jazeera TV discussion on the current crisis in the global economy, Oxford Union</p>
                 <span class="badge bg-secondary ms-3">2013</span>
             </div>
         </div>
@@ -155,7 +167,7 @@
         <div class="card mb-2">
         <div class="card-body py-2">
             <div class="d-flex justify-content-between align-items-start">
-                <p class="mb-0">Primetime 32-minute TV interview on book Economy, Culture and Human Rights, Sikh Channel, Sky 840</p>
+                <p class="mb-0"><i class="fas fa-microphone me-1 text-muted"></i>Primetime 32-minute TV interview on book Economy, Culture and Human Rights, Sikh Channel, Sky 840</p>
                 <span class="badge bg-secondary ms-3">2012</span>
             </div>
         </div>
@@ -163,7 +175,7 @@
         <div class="card mb-2">
         <div class="card-body py-2">
             <div class="d-flex justify-content-between align-items-start">
-                <p class="mb-0">Interviewed by Zee TV and PTC TV Network on Economic Interests and Human Rights, Chandigarh</p>
+                <p class="mb-0"><i class="fas fa-microphone me-1 text-muted"></i>Interviewed by Zee TV and PTC TV Network on Economic Interests and Human Rights, Chandigarh</p>
                 <span class="badge bg-secondary ms-3">2011</span>
             </div>
         </div>
@@ -171,7 +183,7 @@
         <div class="card mb-2">
         <div class="card-body py-2">
             <div class="d-flex justify-content-between align-items-start">
-                <p class="mb-0">Panelist on Zee TV discussion, &#039;The Declining Importance of Social Sciences in India&#039;, Chandigarh</p>
+                <p class="mb-0"><i class="fas fa-microphone me-1 text-muted"></i>Panelist on Zee TV discussion, &#039;The Declining Importance of Social Sciences in India&#039;, Chandigarh</p>
                 <span class="badge bg-secondary ms-3">2009</span>
             </div>
         </div>
@@ -179,19 +191,19 @@
         <div class="card mb-2">
         <div class="card-body py-2">
             <div class="d-flex justify-content-between align-items-start">
-                <p class="mb-0">Interviewed by All India Radio on &#039;Risks of Global Warming to Developing Countries&#039;, Patiala, India</p>
+                <p class="mb-0"><i class="fas fa-microphone me-1 text-muted"></i>Interviewed by All India Radio on &#039;Risks of Global Warming to Developing Countries&#039;, Patiala, India</p>
                 <span class="badge bg-secondary ms-3">2009</span>
             </div>
         </div>
     </div>
         
-        <h2 class="mt-4 mb-3">Public Lectures (Selected)</h2>
+        <h2 class="mt-4 mb-3"><i class="fas fa-chalkboard-teacher me-2 text-primary"></i>Public Lectures (Selected)</h2>
         <div class="card mb-3">
         <div class="card-body">
             <div class="d-flex justify-content-between align-items-start">
                 <div>
                     <h5 class="card-title mb-1">Invited public lecture on Religion and State in South Asia</h5>
-                    <p class="text-muted mb-0">Mississauga, Canada</p>
+                    <p class="text-muted mb-0"><i class="fas fa-map-marker-alt me-1"></i>Mississauga, Canada</p>
                 </div>
                 <span class="badge bg-info ms-3">2015</span>
             </div>
@@ -202,7 +214,7 @@
             <div class="d-flex justify-content-between align-items-start">
                 <div>
                     <h5 class="card-title mb-1">Invited public lecture on the importance of environment in Sikh religious teachings</h5>
-                    <p class="text-muted mb-0">Parkley Gurdwara, Wolverhampton</p>
+                    <p class="text-muted mb-0"><i class="fas fa-map-marker-alt me-1"></i>Parkley Gurdwara, Wolverhampton</p>
                 </div>
                 <span class="badge bg-info ms-3">2014</span>
             </div>
@@ -213,7 +225,7 @@
             <div class="d-flex justify-content-between align-items-start">
                 <div>
                     <h5 class="card-title mb-1">Spoke on the life and achievements of late President Mandela</h5>
-                    <p class="text-muted mb-0">High Commission of India, London</p>
+                    <p class="text-muted mb-0"><i class="fas fa-map-marker-alt me-1"></i>High Commission of India, London</p>
                 </div>
                 <span class="badge bg-info ms-3">2013</span>
             </div>
@@ -224,7 +236,7 @@
             <div class="d-flex justify-content-between align-items-start">
                 <div>
                     <h5 class="card-title mb-1">Keynote address on &#039;The impact of international remittances on the reduction of poverty&#039;</h5>
-                    <p class="text-muted mb-0">International development conference</p>
+                    <p class="text-muted mb-0"><i class="fas fa-map-marker-alt me-1"></i>International development conference</p>
                 </div>
                 <span class="badge bg-info ms-3">2010</span>
             </div>
@@ -235,7 +247,7 @@
             <div class="d-flex justify-content-between align-items-start">
                 <div>
                     <h5 class="card-title mb-1">Lead speaker at the launch of the Punjab Development Initiative</h5>
-                    <p class="text-muted mb-0">House of Commons, London</p>
+                    <p class="text-muted mb-0"><i class="fas fa-map-marker-alt me-1"></i>House of Commons, London</p>
                 </div>
                 <span class="badge bg-info ms-3">2006</span>
             </div>
@@ -246,40 +258,101 @@
             <div class="d-flex justify-content-between align-items-start">
                 <div>
                     <h5 class="card-title mb-1">Keynote speaker at a discussion on River Water Disputes in India</h5>
-                    <p class="text-muted mb-0">House of Commons, London</p>
+                    <p class="text-muted mb-0"><i class="fas fa-map-marker-alt me-1"></i>House of Commons, London</p>
                 </div>
                 <span class="badge bg-info ms-3">2004</span>
             </div>
         </div>
     </div>
         
-        <h2 class="mt-4 mb-3">Community Engagement</h2>
+        <h2 class="mt-4 mb-3"><i class="fas fa-hands-helping me-2 text-primary"></i>Community Engagement</h2>
     <ul class="list-group">
-                <li class="list-group-item">Advisor to the Oxford Sikh community for over 15 years in the campaign to secure a permanent place of Sikh worship in Oxford.</li>
-                <li class="list-group-item">As convenor of the Oxford South Asia Forum, organised discussions on South Asian issues in Oxford.</li>
-                <li class="list-group-item">Worked with Asylum Welcome, Campaign to Close Campsfield Detention Centre, and the Medical Foundation for the Victims of Torture.</li>
-                <li class="list-group-item">Member of Oxfordshire Standing Advisory Council for Religious Education (2007–present).</li>
-                <li class="list-group-item">Member, International Ethics Review and Advisory Panel for Ensaaf&#039;s Punjab Documentation Project (2009–13).</li>
-                <li class="list-group-item">Chair, Panel of Judges to select eminent Punjabis to be honoured by the House of Commons&#039; All Party Parliamentary Committee (2005–08).</li>
+                <li class="list-group-item"><i class="fas fa-check me-2 text-success"></i>Advisor to the Oxford Sikh community for over 15 years in the campaign to secure a permanent place of Sikh worship in Oxford.</li>
+                <li class="list-group-item"><i class="fas fa-check me-2 text-success"></i>As convenor of the Oxford South Asia Forum, organised discussions on South Asian issues in Oxford.</li>
+                <li class="list-group-item"><i class="fas fa-check me-2 text-success"></i>Worked with Asylum Welcome, Campaign to Close Campsfield Detention Centre, and the Medical Foundation for the Victims of Torture.</li>
+                <li class="list-group-item"><i class="fas fa-check me-2 text-success"></i>Member of Oxfordshire Standing Advisory Council for Religious Education (2007–present).</li>
+                <li class="list-group-item"><i class="fas fa-check me-2 text-success"></i>Member, International Ethics Review and Advisory Panel for Ensaaf&#039;s Punjab Documentation Project (2009–13).</li>
+                <li class="list-group-item"><i class="fas fa-check me-2 text-success"></i>Chair, Panel of Judges to select eminent Punjabis to be honoured by the House of Commons&#039; All Party Parliamentary Committee (2005–08).</li>
             </ul>
     </main>
 
     <!-- Footer -->
-    <footer class="bg-dark text-white mt-5 py-4">
+    <footer class="bg-dark text-white py-5">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h5>Professor Pritam Singh</h5>
-                    <p>Emeritus Professor of Economics<br>Oxford Brookes University</p>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <h5><i class="fas fa-graduation-cap me-2"></i>Professor Pritam Singh</h5>
+                    <p class="mb-1">Emeritus Professor of Economics</p>
+                    <p class="text-white-50">Oxford Brookes University, Oxford, UK</p>
+                    <div class="d-flex gap-3 mt-3">
+                                                <a href="https://scholar.google.com/citations?user=nzRKrzoAAAAJ&amp;hl=en" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap fa-lg"></i></a>
+                                                                        <a href="https://oxfordbrookes.academia.edu/PritamSingh" target="_blank" title="Academia.edu"><i class="fas fa-university fa-lg"></i></a>
+                                                                        <a href="https://www.brookes.ac.uk/profiles/staff/pritam-singh" target="_blank" title="University Profile"><i class="fas fa-building-columns fa-lg"></i></a>
+                                            </div>
                 </div>
-                <div class="col-md-6 text-md-end">
-                    <p class="mb-0">&copy; 2026 Professor Pritam Singh. All rights reserved.</p>
+                <div class="col-lg-4 col-md-6">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2"><a href="about.html"><i class="fas fa-chevron-right me-1 small"></i>About</a></li>
+                        <li class="mb-2"><a href="books.html"><i class="fas fa-chevron-right me-1 small"></i>Books</a></li>
+                        <li class="mb-2"><a href="articles.html"><i class="fas fa-chevron-right me-1 small"></i>Articles</a></li>
+                        <li class="mb-2"><a href="conferences.html"><i class="fas fa-chevron-right me-1 small"></i>Conferences</a></li>
+                        <li class="mb-2"><a href="contact.html"><i class="fas fa-chevron-right me-1 small"></i>Contact</a></li>
+                    </ul>
                 </div>
+                <div class="col-lg-4 col-md-12">
+                    <h5>Contact</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2"><i class="fas fa-envelope me-2 text-white-50"></i>psingh@brookes.ac.uk</li>
+                        <li class="mb-2"><i class="fas fa-map-marker-alt me-2 text-white-50"></i>Oxford Brookes Business School</li>
+                        <li class="mb-2"><i class="fas fa-globe me-2 text-white-50"></i>Oxford, UK</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4 border-secondary">
+            <div class="text-center">
+                <p class="mb-0 text-white-50 small">&copy; 2026 Professor Pritam Singh. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Scroll-to-top & scroll animations -->
+    <script>
+    (function(){
+        var btn = document.getElementById('scrollTopBtn');
+        if (btn) {
+            window.addEventListener('scroll', function(){
+                btn.classList.toggle('visible', window.scrollY > 300);
+            });
+            btn.addEventListener('click', function(){
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        }
+        if ('IntersectionObserver' in window) {
+            var observer = new IntersectionObserver(function(entries){
+                entries.forEach(function(e){
+                    if (e.isIntersecting) {
+                        e.target.classList.add('animate-fade-in-up');
+                        observer.unobserve(e.target);
+                    }
+                });
+            }, { threshold: 0.08 });
+            document.querySelectorAll('.card, .book-item, .article-item, .video-item, .section-title, h2, h3').forEach(function(el){
+                if (!el.closest('.hero-section') && !el.closest('nav')) {
+                    el.style.opacity = '0';
+                    observer.observe(el);
+                }
+            });
+        }
+    })();
+    </script>
 </body>
 </html>

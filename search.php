@@ -78,15 +78,20 @@ if ($query !== '') {
 include 'header.php';
 ?>
 
-<main class="container my-5">
-    <h1 class="section-title">Search</h1>
+<section class="page-header">
+    <div class="container">
+        <h1><i class="fas fa-search me-3"></i>Search</h1>
+    </div>
+</section>
 
+<main class="container my-5">
     <form method="get" action="search.php" class="mb-4">
         <div class="input-group">
+            <span class="input-group-text bg-white"><i class="fas fa-search text-muted"></i></span>
             <input type="text" name="q" class="form-control form-control-lg"
                    placeholder="Search publications, conferences, articles..."
                    value="<?= h($query) ?>">
-            <button class="btn btn-primary btn-lg" type="submit">Search</button>
+            <button class="btn btn-primary btn-lg" type="submit"><i class="fas fa-search me-1"></i>Search</button>
         </div>
     </form>
 

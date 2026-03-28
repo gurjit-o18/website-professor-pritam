@@ -8,9 +8,13 @@ $posts = $data['items'];
 include 'header.php';
 ?>
 
-<main class="container my-5">
-    <h1 class="section-title">Blog</h1>
+<section class="page-header">
+    <div class="container">
+        <h1><i class="fas fa-blog me-3"></i>Blog</h1>
+    </div>
+</section>
 
+<main class="container my-5">
     <?php if (empty($posts)): ?>
         <div class="alert alert-info">No blog posts available at the moment. Check back soon.</div>
     <?php else: ?>
@@ -19,7 +23,7 @@ include 'header.php';
             <h3><?= h($post['title']) ?></h3>
 
             <div class="meta-info mb-2">
-                <strong>Date:</strong> <?= h(date('j F Y', strtotime($post['date']))) ?>
+                <strong><i class="fas fa-calendar me-1"></i>Date:</strong> <?= h(date('j F Y', strtotime($post['date']))) ?>
                 <?php if (!empty($post['tags'])): ?>
                 &nbsp;|&nbsp;
                 <?php foreach ($post['tags'] as $tag): ?>
@@ -33,7 +37,7 @@ include 'header.php';
             <?php endif; ?>
 
             <?php if (!empty($post['url'])): ?>
-            <a href="<?= h($post['url']) ?>" class="btn btn-sm btn-primary" target="_blank">Read More</a>
+            <a href="<?= h($post['url']) ?>" class="btn btn-sm btn-primary" target="_blank"><i class="fas fa-external-link-alt me-1"></i>Read More</a>
             <?php endif; ?>
         </div>
         <?php endforeach; ?>

@@ -8,9 +8,13 @@ $chapters = $data['items'];
 include 'header.php';
 ?>
 
-<main class="container my-5">
-    <h1 class="section-title">Book Chapters</h1>
+<section class="page-header">
+    <div class="container">
+        <h1><i class="fas fa-bookmark me-3"></i>Book Chapters</h1>
+    </div>
+</section>
 
+<main class="container my-5">
     <?php if (empty($chapters)): ?>
         <div class="alert alert-info">No book chapters available at the moment.</div>
     <?php else: ?>
@@ -19,15 +23,15 @@ include 'header.php';
             <h3><?= h($chapter['title']) ?></h3>
 
             <div class="meta-info mb-2">
-                <strong>Book:</strong> <em><?= h($chapter['book']) ?></em><br>
+                <strong><i class="fas fa-book me-1"></i>Book:</strong> <em><?= h($chapter['book']) ?></em><br>
                 <?php if (!empty($chapter['editors'])): ?>
-                <strong>Edited by:</strong> <?= h($chapter['editors']) ?><br>
+                <strong><i class="fas fa-user-edit me-1"></i>Edited by:</strong> <?= h($chapter['editors']) ?><br>
                 <?php endif; ?>
-                <strong>Author(s):</strong> <?= h($chapter['authors']) ?><br>
+                <strong><i class="fas fa-pen me-1"></i>Author(s):</strong> <?= h($chapter['authors']) ?><br>
                 <?php if (!empty($chapter['publisher'])): ?>
-                <strong>Publisher:</strong> <?= h($chapter['publisher']) ?> (<?= h($chapter['year']) ?>)
+                <strong><i class="fas fa-building me-1"></i>Publisher:</strong> <?= h($chapter['publisher']) ?> (<?= h($chapter['year']) ?>)
                 <?php else: ?>
-                <strong>Year:</strong> <?= h($chapter['year']) ?>
+                <strong><i class="fas fa-calendar me-1"></i>Year:</strong> <?= h($chapter['year']) ?>
                 <?php endif; ?>
             </div>
 
@@ -36,7 +40,7 @@ include 'header.php';
             <?php endif; ?>
 
             <?php if (!empty($chapter['url'])): ?>
-            <a href="<?= h($chapter['url']) ?>" class="btn btn-sm btn-primary" target="_blank">View Chapter</a>
+            <a href="<?= h($chapter['url']) ?>" class="btn btn-sm btn-primary" target="_blank"><i class="fas fa-external-link-alt me-1"></i>View Chapter</a>
             <?php endif; ?>
         </div>
         <?php endforeach; ?>
