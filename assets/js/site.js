@@ -38,95 +38,57 @@ function showError(el, msg) {
     el.innerHTML = '<div class="alert alert-danger">' + esc(msg || 'Failed to load data.') + '</div>';
 }
 
-/* ─── Navigation ──────────────────────────────────────────────────── */
+/* ─── Header / Footer AJAX includes ──────────────────────────────── */
 
-function buildNav(activePage) {
-    var pages = {
-        'index': 'index.html',
-        'about': 'about.html',
-        'education': 'education.html',
-        'academic_career': 'academic_career.html',
-        'awards': 'awards.html',
-        'books': 'books.html',
-        'articles': 'articles.html',
-        'chapters': 'chapters.html',
-        'reviews': 'reviews.html',
-        'newspaper_articles': 'newspaper_articles.html',
-        'conferences': 'conferences.html',
-        'research_leadership': 'research_leadership.html',
-        'funding': 'funding.html',
-        'doctoral_supervision': 'doctoral_supervision.html',
-        'professional_associations': 'professional_associations.html',
-        'public_engagement': 'public_engagement.html',
-        'academic_leadership': 'academic_leadership.html',
-        'enterprise_consultancy': 'enterprise_consultancy.html',
-        'global_impact': 'global_impact.html',
-        'search': 'search.html',
-        'contact': 'contact.html',
-        'blog': 'blog.html',
-        'videos': 'videos.html'
-    };
+function loadIncludes(pageId) {
+    Promise.all([
+        fetch('_header.html').then(function (r) {
+            if (!r.ok) throw new Error('_header.html: HTTP ' + r.status);
+            return r.text();
+        }),
+        fetch('_footer.html').then(function (r) {
+            if (!r.ok) throw new Error('_footer.html: HTTP ' + r.status);
+            return r.text();
+        })
+    ]).then(function (results) {
+        var headerEl = document.getElementById('site-header');
+        if (headerEl) {
+            headerEl.innerHTML = results[0];
+            setNavActive(pageId);
+        }
 
-    var profilePages = ['education', 'academic_career', 'awards'];
-    var pubPages = ['books', 'articles', 'chapters', 'reviews', 'newspaper_articles'];
-    var researchPages = ['research_leadership', 'funding', 'doctoral_supervision'];
-    var engagePages = ['professional_associations', 'public_engagement', 'academic_leadership', 'enterprise_consultancy', 'global_impact'];
+        var footerEl = document.getElementById('site-footer');
+        if (footerEl) {
+            footerEl.innerHTML = results[1];
+            var yearEl = document.getElementById('footer-year');
+            if (yearEl) yearEl.textContent = new Date().getFullYear();
+        }
+    }).catch(function (err) {
+        console.error('Failed to load site includes:', err.message || err);
+    });
+}
 
-    function a(page, label, cls) {
-        var active = activePage === page ? ' active' : '';
-        var extraCls = cls ? ' ' + cls : '';
-        return '<a class="' + extraCls.trim() + active + '" href="' + pages[page] + '">' + label + '</a>';
-    }
+function setNavActive(pageId) {
+    var currentFile = (pageId === 'index' ? 'index' : pageId) + '.html';
 
-    function isActiveIn(list) {
-        return list.indexOf(activePage) !== -1 ? ' active' : '';
-    }
+    /* mark direct nav-link items */
+    document.querySelectorAll('#site-header .nav-link').forEach(function (link) {
+        if (link.getAttribute('href') === currentFile) {
+            link.classList.add('active');
+        }
+    });
 
-    return '<nav class="navbar navbar-expand-lg navbar-dark bg-dark">' +
-        '<div class="container">' +
-        '<a class="navbar-brand" href="index.html">Prof. Pritam Singh</a>' +
-        '<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">' +
-        '<span class="navbar-toggler-icon"></span></button>' +
-        '<div class="collapse navbar-collapse" id="navbarNav">' +
-        '<ul class="navbar-nav ms-auto">' +
-        '<li class="nav-item">' + a('index', 'Home', 'nav-link') + '</li>' +
-        '<li class="nav-item">' + a('about', 'About', 'nav-link') + '</li>' +
-        '<li class="nav-item dropdown">' +
-        '<a class="nav-link dropdown-toggle' + isActiveIn(profilePages) + '" href="#" role="button" data-bs-toggle="dropdown">Profile</a>' +
-        '<ul class="dropdown-menu">' +
-        '<li>' + a('education', 'Education', 'dropdown-item') + '</li>' +
-        '<li>' + a('academic_career', 'Academic Career', 'dropdown-item') + '</li>' +
-        '<li>' + a('awards', 'Awards &amp; Honors', 'dropdown-item') + '</li>' +
-        '</ul></li>' +
-        '<li class="nav-item dropdown">' +
-        '<a class="nav-link dropdown-toggle' + isActiveIn(pubPages) + '" href="#" role="button" data-bs-toggle="dropdown">Publications</a>' +
-        '<ul class="dropdown-menu">' +
-        '<li>' + a('books', 'Books', 'dropdown-item') + '</li>' +
-        '<li>' + a('articles', 'Journal Articles', 'dropdown-item') + '</li>' +
-        '<li>' + a('chapters', 'Book Chapters', 'dropdown-item') + '</li>' +
-        '<li>' + a('reviews', 'Reviews', 'dropdown-item') + '</li>' +
-        '<li>' + a('newspaper_articles', 'Newspaper Articles', 'dropdown-item') + '</li>' +
-        '</ul></li>' +
-        '<li class="nav-item">' + a('conferences', 'Conferences &amp; Talks', 'nav-link') + '</li>' +
-        '<li class="nav-item dropdown">' +
-        '<a class="nav-link dropdown-toggle' + isActiveIn(researchPages) + '" href="#" role="button" data-bs-toggle="dropdown">Research</a>' +
-        '<ul class="dropdown-menu">' +
-        '<li>' + a('research_leadership', 'Research Leadership', 'dropdown-item') + '</li>' +
-        '<li>' + a('funding', 'Funding', 'dropdown-item') + '</li>' +
-        '<li>' + a('doctoral_supervision', 'Doctoral Supervision', 'dropdown-item') + '</li>' +
-        '</ul></li>' +
-        '<li class="nav-item dropdown">' +
-        '<a class="nav-link dropdown-toggle' + isActiveIn(engagePages) + '" href="#" role="button" data-bs-toggle="dropdown">Engagement</a>' +
-        '<ul class="dropdown-menu">' +
-        '<li>' + a('professional_associations', 'Professional Associations', 'dropdown-item') + '</li>' +
-        '<li>' + a('public_engagement', 'Public Engagement', 'dropdown-item') + '</li>' +
-        '<li>' + a('academic_leadership', 'Academic Leadership', 'dropdown-item') + '</li>' +
-        '<li>' + a('enterprise_consultancy', 'Enterprise &amp; Consultancy', 'dropdown-item') + '</li>' +
-        '<li>' + a('global_impact', 'Global Impact', 'dropdown-item') + '</li>' +
-        '</ul></li>' +
-        '<li class="nav-item">' + a('search', 'Search', 'nav-link') + '</li>' +
-        '<li class="nav-item">' + a('contact', 'Contact', 'nav-link') + '</li>' +
-        '</ul></div></div></nav>';
+    /* mark dropdown items and propagate active to parent toggle */
+    document.querySelectorAll('#site-header .dropdown-item').forEach(function (item) {
+        if (item.getAttribute('href') === currentFile) {
+            item.classList.add('active');
+            var dropdown = item.closest('.dropdown');
+            if (dropdown) {
+                var toggle = dropdown.querySelector('.dropdown-toggle');
+                if (toggle) toggle.classList.add('active');
+            }
+        }
+    });
 }
 
 /* ─── Infinite Scroll ─────────────────────────────────────────────── */
@@ -180,8 +142,7 @@ InfiniteLoader.prototype.loadMore = function () {
 /* ─── Page initialisers ───────────────────────────────────────────── */
 
 function initPage(pageId) {
-    var navEl = document.getElementById('site-nav');
-    if (navEl) navEl.innerHTML = buildNav(pageId);
+    loadIncludes(pageId);
 
     var loaders = {
         'index': loadIndex,
