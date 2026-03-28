@@ -12,17 +12,21 @@ $recognition = array_filter($items, fn($i) => $i['category'] === 'recognition');
 include 'header.php';
 ?>
 
-<main class="container my-5">
-    <h1 class="section-title">Awards &amp; Honors</h1>
+<section class="page-header">
+    <div class="container">
+        <h1><i class="fas fa-award"></i> Awards &amp; Honors</h1>
+    </div>
+</section>
 
+<main class="container my-5">
     <?php if (!empty($honorary)): ?>
-    <h2 class="mt-4 mb-3">Honorary Awards</h2>
+    <h2 class="mt-4 mb-3"><i class="fas fa-trophy me-2"></i>Honorary Awards</h2>
     <?php foreach ($honorary as $item): ?>
     <div class="card mb-3">
         <div class="card-body">
             <div class="d-flex justify-content-between align-items-start">
                 <div>
-                    <h5 class="card-title mb-1"><?= h($item['title']) ?></h5>
+                    <h5 class="card-title mb-1"><i class="fas fa-award me-2"></i><?= h($item['title']) ?></h5>
                     <p class="text-muted mb-0"><?= h($item['body']) ?></p>
                     <?php if (!empty($item['notes'])): ?>
                     <p class="text-muted small mt-1"><?= h($item['notes']) ?></p>
@@ -36,13 +40,13 @@ include 'header.php';
     <?php endif; ?>
 
     <?php if (!empty($scholarships)): ?>
-    <h2 class="mt-4 mb-3">Scholarships &amp; Fellowships</h2>
+    <h2 class="mt-4 mb-3"><i class="fas fa-medal me-2"></i>Scholarships &amp; Fellowships</h2>
     <?php foreach ($scholarships as $item): ?>
     <div class="card mb-3">
         <div class="card-body">
             <div class="d-flex justify-content-between align-items-start">
                 <div>
-                    <h5 class="card-title mb-1"><?= h($item['title']) ?></h5>
+                    <h5 class="card-title mb-1"><i class="fas fa-medal me-2"></i><?= h($item['title']) ?></h5>
                     <p class="text-muted mb-0"><?= h($item['body']) ?></p>
                     <?php if (!empty($item['notes'])): ?>
                     <p class="text-muted small mt-1"><?= h($item['notes']) ?></p>
@@ -56,13 +60,13 @@ include 'header.php';
     <?php endif; ?>
 
     <?php if (!empty($recognition)): ?>
-    <h2 class="mt-4 mb-3">External Recognition as Expert</h2>
+    <h2 class="mt-4 mb-3"><i class="fas fa-star me-2"></i>External Recognition as Expert</h2>
     <?php foreach ($recognition as $item): ?>
     <div class="card mb-3">
         <div class="card-body">
             <div class="d-flex justify-content-between align-items-start">
                 <div>
-                    <h5 class="card-title mb-1"><?= h($item['title']) ?></h5>
+                    <h5 class="card-title mb-1"><i class="fas fa-star me-2"></i><?= h($item['title']) ?></h5>
                     <p class="text-muted mb-0"><?= h($item['body']) ?></p>
                     <?php if (!empty($item['notes'])): ?>
                     <p class="text-muted small mt-1"><?= h($item['notes']) ?></p>

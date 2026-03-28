@@ -8,15 +8,19 @@ $books = $data['items'];
 include 'header.php';
 ?>
 
-<main class="container my-5">
-    <h1 class="section-title">Books</h1>
+<section class="page-header">
+    <div class="container">
+        <h1><i class="fas fa-book"></i> Books</h1>
+    </div>
+</section>
 
+<main class="container my-5">
     <?php if (empty($books)): ?>
         <div class="alert alert-info">No books available at the moment.</div>
     <?php else: ?>
         <?php foreach ($books as $book): ?>
         <div class="book-item">
-            <h3><?= h($book['title']) ?></h3>
+            <h3><i class="fas fa-book me-2"></i><?= h($book['title']) ?></h3>
             
             <div class="meta-info mb-2">
                 <strong>Author(s):</strong> <?= h($book['authors']) ?><br>
@@ -34,7 +38,7 @@ include 'header.php';
                 <strong>Links:</strong><br>
                 <?php foreach ($book['links'] as $link): ?>
                 <a href="<?= h($link['url']) ?>" class="btn btn-sm btn-primary me-2 mt-2" target="_blank">
-                    <?= h($link['label']) ?>
+                    <i class="fas fa-external-link-alt me-1"></i><?= h($link['label']) ?>
                 </a>
                 <?php endforeach; ?>
             </div>
