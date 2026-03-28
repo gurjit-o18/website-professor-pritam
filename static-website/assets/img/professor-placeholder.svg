@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
-  <rect width="300" height="300" fill="#003366"/>
-  <circle cx="150" cy="120" r="50" fill="#f0f0f0"/>
-  <path d="M75 220 Q75 170 150 170 Q225 170 225 220 L225 300 L75 300 Z" fill="#f0f0f0"/>
-  <text x="150" y="270" font-family="Arial, sans-serif" font-size="16" fill="#003366" text-anchor="middle">Professor Pritam Singh</text>
-</svg>

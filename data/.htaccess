@@ -1,2 +1,4 @@
-# Deny access to data directory
-Deny from all
+# Allow access to JSON data files for AJAX requests
+<FilesMatch "\.json$">
+    Require all granted
+</FilesMatch>
