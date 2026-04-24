@@ -57,6 +57,25 @@ function showError(el, msg) {
     el.innerHTML = '<div class="alert alert-danger">' + esc(msg || 'Failed to load data.') + '</div>';
 }
 
+function normalizeSeoUrls() {
+    var urlSelectors = [
+        'link[rel="canonical"]',
+        'meta[property="og:url"]',
+        'meta[property="og:image"]',
+        'meta[name="twitter:image"]'
+    ];
+
+    urlSelectors.forEach(function (selector) {
+        document.querySelectorAll(selector).forEach(function (el) {
+            var attr = el.tagName.toLowerCase() === 'link' ? 'href' : 'content';
+            var value = el.getAttribute(attr);
+            if (value && value.charAt(0) === '/') {
+                el.setAttribute(attr, new URL(value, window.location.origin).href);
+            }
+        });
+    });
+}
+
 /* ─── Header / Footer AJAX includes ──────────────────────────────── */
 
 function loadIncludes(pageId) {
@@ -161,6 +180,7 @@ InfiniteLoader.prototype.loadMore = function () {
 /* ─── Page initialisers ───────────────────────────────────────────── */
 
 function initPage(pageId) {
+    normalizeSeoUrls();
     document.body.classList.add('page-' + pageId);
     loadIncludes(pageId);
 
