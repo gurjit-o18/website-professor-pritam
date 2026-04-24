@@ -13,6 +13,25 @@ function esc(str) {
         .replace(/'/g, '&#039;');
 }
 
+function icon(name, extraClass) {
+    var icons = {
+        article: '<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M8 13h8"></path><path d="M8 17h5"></path>',
+        blog: '<path d="M12 20h9"></path><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"></path>',
+        book: '<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5Z"></path>',
+        chapters: '<path d="M2 4.5A2.5 2.5 0 0 1 4.5 2H10v19H4.5A2.5 2.5 0 0 1 2 18.5Z"></path><path d="M22 4.5A2.5 2.5 0 0 0 19.5 2H14v19h5.5a2.5 2.5 0 0 0 2.5-2.5Z"></path>',
+        check: '<path d="m20 6-11 11-5-5"></path>',
+        contact: '<rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-10 6L2 7"></path>',
+        education: '<path d="m22 10-10-5-10 5 10 5 10-5Z"></path><path d="M6 12v5c3 2 9 2 12 0v-5"></path>',
+        globe: '<circle cx="12" cy="12" r="10"></circle><path d="M2 12h20"></path><path d="M12 2a15.3 15.3 0 0 1 0 20"></path><path d="M12 2a15.3 15.3 0 0 0 0 20"></path>',
+        link: '<path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>',
+        mic: '<path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><path d="M12 19v3"></path>',
+        newspaper: '<path d="M4 22h16a2 2 0 0 0 2-2V6h-6v14a2 2 0 0 1-2 2"></path><path d="M2 6h14v14a2 2 0 1 1-4 0V4H2Z"></path><path d="M6 9h6"></path><path d="M6 13h6"></path><path d="M6 17h4"></path>',
+        video: '<rect width="18" height="14" x="3" y="5" rx="2"></rect><path d="m10 9 5 3-5 3Z"></path>'
+    };
+    var cls = extraClass ? ' ' + extraClass : '';
+    return '<span class="ui-icon' + cls + '" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false">' + (icons[name] || icons.article) + '</svg></span>';
+}
+
 function formatDate(dateStr) {
     if (!dateStr) return '';
     try {
@@ -142,6 +161,7 @@ InfiniteLoader.prototype.loadMore = function () {
 /* ─── Page initialisers ───────────────────────────────────────────── */
 
 function initPage(pageId) {
+    document.body.classList.add('page-' + pageId);
     loadIncludes(pageId);
 
     var loaders = {
@@ -256,7 +276,7 @@ function loadAbout() {
         if (bio.prior_positions && bio.prior_positions.length) {
             html += '<div class="positions-section mb-4"><h3>Prior Positions</h3><ul class="list-unstyled">';
             bio.prior_positions.forEach(function (p) {
-                html += '<li class="mb-2"><i class="text-primary">&#10003;</i> ' + esc(p) + '</li>';
+                html += '<li class="icon-list-item mb-2">' + icon('check', 'icon-list') + '<span>' + esc(p) + '</span></li>';
             });
             html += '</ul></div>';
         }
@@ -264,7 +284,7 @@ function loadAbout() {
         if (bio.administrative_roles && bio.administrative_roles.length) {
             html += '<div class="achievements-section mb-4"><h3>Administrative Roles &amp; Honors</h3><ul class="list-unstyled">';
             bio.administrative_roles.forEach(function (r) {
-                html += '<li class="mb-2"><i class="text-primary">&#10003;</i> ' + esc(r) + '</li>';
+                html += '<li class="icon-list-item mb-2">' + icon('check', 'icon-list') + '<span>' + esc(r) + '</span></li>';
             });
             html += '</ul></div>';
         }
@@ -276,7 +296,7 @@ function loadAbout() {
         if (bio.education) {
             html += '<div class="education-section mb-4"><h3>Education</h3><ul class="list-unstyled">';
             Object.entries(bio.education).forEach(function (entry) {
-                html += '<li class="mb-2"><i class="text-primary">&#127891;</i> <strong>' + esc(entry[0].replace('_', '/')) + '</strong> &ndash; ' + esc(entry[1]) + '</li>';
+                html += '<li class="icon-list-item mb-2">' + icon('education', 'icon-list') + '<span><strong>' + esc(entry[0].replace('_', '/')) + '</strong> &ndash; ' + esc(entry[1]) + '</span></li>';
             });
             html += '</ul></div>';
         }
@@ -298,20 +318,20 @@ function loadAbout() {
         }
 
         html += '<div class="profiles-section mb-4"><h3>Academic Profiles</h3><ul class="list-unstyled">';
-        if (bio.institution_profile_url) html += '<li class="mb-2"><a href="' + esc(bio.institution_profile_url) + '" target="_blank" rel="noopener" class="text-decoration-none">&#128279; Oxford Brookes University Profile</a></li>';
-        if (bio.google_scholar_url) html += '<li class="mb-2"><a href="' + esc(bio.google_scholar_url) + '" target="_blank" rel="noopener" class="text-decoration-none">&#128279; Google Scholar Profile</a></li>';
-        if (bio.academia_url) html += '<li class="mb-2"><a href="' + esc(bio.academia_url) + '" target="_blank" rel="noopener" class="text-decoration-none">&#128279; Academia.edu Profile</a></li>';
+        if (bio.institution_profile_url) html += '<li class="mb-2"><a href="' + esc(bio.institution_profile_url) + '" target="_blank" rel="noopener" class="icon-link text-decoration-none">' + icon('link', 'icon-link-mark') + '<span>Oxford Brookes University Profile</span></a></li>';
+        if (bio.google_scholar_url) html += '<li class="mb-2"><a href="' + esc(bio.google_scholar_url) + '" target="_blank" rel="noopener" class="icon-link text-decoration-none">' + icon('link', 'icon-link-mark') + '<span>Google Scholar Profile</span></a></li>';
+        if (bio.academia_url) html += '<li class="mb-2"><a href="' + esc(bio.academia_url) + '" target="_blank" rel="noopener" class="icon-link text-decoration-none">' + icon('link', 'icon-link-mark') + '<span>Academia.edu Profile</span></a></li>';
         html += '</ul></div>';
 
         html += '</div><div class="col-lg-4"><div class="card"><div class="card-body">' +
             '<h5 class="card-title">Quick Links</h5><ul class="list-unstyled">' +
-            '<li class="mb-2"><a href="books.html" class="text-decoration-none">&#128218; View Books</a></li>' +
-            '<li class="mb-2"><a href="chapters.html" class="text-decoration-none">&#128214; View Book Chapters</a></li>' +
-            '<li class="mb-2"><a href="articles.html" class="text-decoration-none">&#128196; View Articles</a></li>' +
-            '<li class="mb-2"><a href="videos.html" class="text-decoration-none">&#127909; View Videos</a></li>' +
-            '<li class="mb-2"><a href="conferences.html" class="text-decoration-none">&#127908; View Conferences</a></li>' +
-            '<li class="mb-2"><a href="blog.html" class="text-decoration-none">&#128221; View Blog</a></li>' +
-            '<li class="mb-2"><a href="contact.html" class="text-decoration-none">&#9993;&#65039; Contact</a></li>' +
+            '<li class="mb-2"><a href="books.html" class="quick-link text-decoration-none">' + icon('book', 'quick-link-icon') + '<span>View Books</span></a></li>' +
+            '<li class="mb-2"><a href="chapters.html" class="quick-link text-decoration-none">' + icon('chapters', 'quick-link-icon') + '<span>View Book Chapters</span></a></li>' +
+            '<li class="mb-2"><a href="articles.html" class="quick-link text-decoration-none">' + icon('article', 'quick-link-icon') + '<span>View Articles</span></a></li>' +
+            '<li class="mb-2"><a href="videos.html" class="quick-link text-decoration-none">' + icon('video', 'quick-link-icon') + '<span>View Videos</span></a></li>' +
+            '<li class="mb-2"><a href="conferences.html" class="quick-link text-decoration-none">' + icon('mic', 'quick-link-icon') + '<span>View Conferences</span></a></li>' +
+            '<li class="mb-2"><a href="blog.html" class="quick-link text-decoration-none">' + icon('blog', 'quick-link-icon') + '<span>View Blog</span></a></li>' +
+            '<li class="mb-2"><a href="contact.html" class="quick-link text-decoration-none">' + icon('contact', 'quick-link-icon') + '<span>Contact</span></a></li>' +
             '</ul></div></div></div></div>';
 
         el.innerHTML = html;
